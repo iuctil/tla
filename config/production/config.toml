@@ -1,2 +1,3 @@
-baseurl = "https://doks-child-theme.netlify.app/"
+baseurl = "/projects/tla/"
 canonifyURLs = true
+#disqusShortname = "ctil"

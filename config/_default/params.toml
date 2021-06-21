@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "TLA"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "TIDE Learning Accelerator"
+description = "This is a temporary site to get TLA project started. This text can be updated by editing config/_default/params.toml"
 
 ## Open Graph + Twitter Cards
 images = ["doks.png"]
@@ -17,9 +17,9 @@ ogLocale = "en_US"
 ## JSON-LD
 schemaType = "Organization"
 schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
+schemaTwitter = "https://twitter.com/iuctil"
 schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/h-enk"
+schemaGitHub = "https://github.com/iuctil"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -36,14 +36,14 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by <a href=\"https://ctil.iu.edu/\">Crisis Technologies Innovation Lab</a> at <a href=\"https://iu.edu/\">Indiana University</a>"
 
 # Alert
 alert = false
 alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/iuctil/tla"
 editPage = false
 
 [options]
@@ -55,4 +55,8 @@ editPage = false
   bootStrapJs = false
   breadCrumb = false
   highLight = true
-  kaTex = false
+  kaTex = true
+
+custom_css = []
+custom_js = ["/fontawesome-free-5.15.3-web/js/all.min.js"]
+
