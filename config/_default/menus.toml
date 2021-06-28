@@ -11,14 +11,24 @@
   url = "/docs/help/"
 
 [[main]]
+  name = "TPS"
+  url = "/tps/"
+  weight = 10
+
+[[main]]
+  name = "BPLP"
+  url = "/bplp/"
+  weight = 15
+
+[[main]]
   name = "Docs"
   url = "/docs/prologue/introduction/"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  weight = 25
 
 [[social]]
   name = "Twitter"
