@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "help"
-weight: 630
+    parent: "misc"
+weight: 830
 toc: true
 ---
 

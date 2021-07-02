@@ -1,15 +1,15 @@
 ---
-title: "Troubleshooting"
-description: "Solutions to common problems."
-lead: "Solutions to common problems."
+title: "TPS Sample"
+description: "TODO.."
+lead: "Show things we could display for TPS"
 date: 2020-11-12T15:22:20+01:00
 lastmod: 2020-11-12T15:22:20+01:00
 draft: false
 images: []
-menu: 
+menu:
   docs:
-    parent: "help"
-weight: 620
+    parent: "tps"
+weight: 720
 toc: true
 ---
 
