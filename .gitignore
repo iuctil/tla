@@ -5,3 +5,4 @@ resources
 # Local Netlify folder
 .netlify
 TODO
+backend/config/keys.json
