@@ -22,4 +22,12 @@ exports.papers = [
     journal: "Telemedicine and e-Health",
     date: new Date("2018-09-14"),
   },
-]
+];
+
+
+exports.rssFeeds = [
+  {
+    rss: "http://federaltelemedicine.com/?feed=comments-rss2"
+    name: "Federal Telemedicine",
+  }
+];
