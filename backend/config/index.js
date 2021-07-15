@@ -27,7 +27,7 @@ exports.papers = [
 
 exports.rssFeeds = [
   {
-    rss: "http://federaltelemedicine.com/?feed=comments-rss2"
+    rss: "http://federaltelemedicine.com/?feed=rss2"
     name: "Federal Telemedicine",
   }
 ];
