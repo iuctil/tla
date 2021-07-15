@@ -4,17 +4,23 @@
     <article>
       <h1 class="text-center">{{ .Title }}</h1>
       <div class="text-center">{{ .Content }}</div>
-			<div class="card-list">
-				{{ range .Data.Pages -}}
-					<div class="card">
-						<div class="card-body">
-							<h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
-							<p>{{ .Params.lead | safeHTML }}</p>
-							{{ partial "main/blog-meta.html" . -}}
-						</div>
-					</div>
-				{{ end -}}
-			</div>
+      <div class="card-list">
+        {{ range .Data.Pages -}}
+          <div class="card">
+            <div class="card-body">
+              {{if (isset .Params "extlink") }}
+                <br>
+                <small>{{ .Params.extlink}} </small>
+                <h2 class="h3" style="margin-top: 0;"><a class="stretched-link text-body" href="{{ .Params.extlink }}">Ext: {{ .Params.title }}</a></h2>
+              {{else}}
+                <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+              {{end}}
+              <p>{{ .Params.lead | safeHTML }}</p>
+              {{ partial "main/blog-meta.html" . -}}
+            </div>
+          </div>
+        {{ end -}}
+      </div>
     </article>
   </div>
 </div>
