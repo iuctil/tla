@@ -28,7 +28,7 @@ const parser = new Parser();
         const id = "federaltelemedicine."+pageid;
         const filepath = __dirname+"/../content/blog/"+id+".md";
 
-        //if(fs.existsSync(filepath)) return; //don't write if it already exists
+        //if(fs.existsSync(filepath)) return; //don't overwrite if it already exists
 
         //remove non ascii
         for(let key in item) {
@@ -42,7 +42,7 @@ const parser = new Parser();
         item.content = item.content.replace("[&#8230;]", "...");
 
         const content = `---
-source: "http://federaltelemedicine.com"
+source: "federaltelemedicine.com"
 title: "${item.title}"
 description: "todo.."
 lead: "${item.content}"

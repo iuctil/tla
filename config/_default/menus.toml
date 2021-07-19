@@ -22,8 +22,6 @@
   identifier = "misc"
   url = "/docs/misc/"
 
-
-
 [[main]]
   name = "Docs"
   url = "/docs/prologue/introduction/"
@@ -36,7 +34,7 @@
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "/blog/internal"
   weight = 20
 
 
