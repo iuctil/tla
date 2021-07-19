@@ -1,0 +1,9 @@
+<h3>Sources</h3>
+<ul class="list-unstyled">
+  {{ $currentPage := . }}
+    {{ range .Site.Taxonomies.source }}
+            {{ $path := (printf "/%s/%s/" "blog" .Page.Title) }}
+            {{ $active := eq $path $currentPage.URL }}
+            <li style="text-transform: uppercase; "><a href="{{ $path | relURL }}" class="docs-link{{ if $active }} active{{ end }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+    {{ end }}
+</ul>
