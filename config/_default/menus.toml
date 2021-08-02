@@ -28,8 +28,8 @@
   weight = 10
 
 [[main]]
-  name = "Discourse"
-  url = "https://discourse.ctil.iu.edu"
+  name = "Discussion"
+  url = "https://github.com/iuctil/tla/discussions"
   weight = 18
 
 [[main]]
