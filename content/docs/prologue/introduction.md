@@ -36,11 +36,9 @@ The online **Total Performance System (TPS)** provides disaster medicine perform
 
 The online **Best Practices and Learning Platform (BPLP)** provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities.
 
-## How the TLA...
+## How the TLA Supports Disaster Response and Planning Efforts
 
 {{< alert icon="👉" text="TO DO" />}}
-
-
 
 
 
@@ -57,14 +55,7 @@ Prior to the implementation of the **TLA**, there was no way to answer these kin
 
 Through iteratively improved efficiency and effectiveness of patient care in specific environments, disaster situations, and locales, the **TLA** accelerates the transition to a disaster and battlefield medicine environment driven by man-machine teaming using interpretable analytics, artificial intelligence, and machine learning employing reliable measures based on extensive data gathered in the field by performers, related institutions, government, and other agencies. We can now go “from data to knowledge to performance.”
 
-{{< alert icon="👉" text="TO DO" />}}
-
-Addressing and Integrating Multiple Perspectives, Principles, and Existing Efforts...
-ensure the new initiatives aid and enhance other ongoing efforts, notably the Telemedicine and Advanced Technology Research Center’s (TATRC) existing NETCCN performers, the Device Interoperability and Autonomy Coordinating Center (DIACC), the Data Commons, and stakeholders such as FEMA, SCCN and ASPR.
-
-
-
-
+The **TLA** is designed to integrate and build on existing efforts, and respond to key perspectives and principles, including the need for military relevance. It helps to ensure that new initiatives aid and enhance ongoing efforts by others in the [NETCCN](https://www.tatrc.org/netccn/) Ecosystem, notably the [Telemedicine and Advanced Technology Research Center’s (TATRC)](https://www.tatrc.org/) existing [NETCCN performers](https://www.tatrc.org/netccn/teams.html), the Device Interoperability and Autonomy Coordinating Center (DIACC), the [JHU/APL](https://www.jhuapl.edu/) Data Commons, and stakeholders such as [FEMA](https://www.fema.gov/), [SCCM](https://www.sccm.org/), and [ASPR](https://www.phe.gov/about/aspr/Pages/default.aspx).
 
 ## Go further
 
