@@ -15,27 +15,26 @@ toc: true
 
 ## TLA
 
-The TLA addresses these gaps by delivering: 
-* an online Total Performance System (TPS) that provides disaster medicine performance measures using a proven approach already being used successfully in military contexts 
-* an online Best Practices and Learning Platform (BPLP) that provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities
-
 The TLA supports:
 *	the ability to synthesize real-time data obtained in the field contextualized by additional open-source databases 
 *	continuous learning for iteratively improving disaster healthcare
 *	an ability to identify lessons learned in the civilian context for dissemination and use in optimizing military healthcare during large scale combat operations (e.g., massive numbers of casualties)
 
-### Total Performance System
+The TLA addresses the gaps in evaluation of technology in disaster environments, research in disaster technologies, and the development of best practices for disaster and battlefield medicine by delivering: 
+* an online Total Performance System (TPS) that provides disaster medicine performance measures using a proven approach already being used successfully in military contexts 
+* an online Best Practices and Learning Platform (BPLP) that provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities
+
+### Total Performance System (TPS)
 
 {{< alert icon="👉" text="TO DO" />}}
 
 * Add link to TPS. We can also host public content from TPS (expose graphs, charts, etc.). 
-* Add description of TPS
+
+The online Total Performance System (TPS) provides disaster medicine performance measures using a proven approach already being used successfully in military contexts. 
 
 ### Best Practices and Learning Platform (BPLP)
 
-{{< alert icon="👉" text="TODO. Please edit me." />}}
-
-Describe what BPLP is and its purpose. 
+The online Best Practices and Learning Platform (BPLP) provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities.
 
 ## Go further
 
