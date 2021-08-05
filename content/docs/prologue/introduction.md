@@ -13,7 +13,7 @@ weight: 100
 toc: true
 ---
 
-## TLA
+## Technology in Disaster Environments (TiDE) Learning Accelerator (TLA)
 
 The TLA supports:
 *	the ability to synthesize real-time data obtained in the field contextualized by additional open-source databases 
@@ -35,6 +35,35 @@ The online Total Performance System (TPS) provides disaster medicine performance
 ### Best Practices and Learning Platform (BPLP)
 
 The online Best Practices and Learning Platform (BPLP) provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities.
+
+## How the TLA...
+
+
+## How the TLA Supports the [NETCCN](https://www.tatrc.org/netccn/) Ecosystem
+
+The [National Emergency Tele-Critical Care Network (NETCCN)](https://www.tatrc.org/netccn/) is pioneering ways to deploy technologies that shift from traditional hub-and-spoke models to an organic “anywhere to anywhere” approach where capabilities, people, knowledge, and expertise are distributed in-person or virtually to the area of need, enabled by insights and best practices.
+
+*	How do we know when technology is being used successfully to improve care and when is it not reaching its full potential? 
+*	What are the key data-driven measures of this?
+*	What are the best practices for using technology in disaster and battlefield environments in this organic approach? 
+*	What are the key areas of research in how technology is applied?
+
+Prior to the implementation of the TLA, there was no way to answer these kinds of questions. Data was being generated, but it had not yet been transformed into actionable insight. The TLA bridges this gap using extensive capabilities in data science and performance science.
+
+Through iteratively improved efficiency and effectiveness of patient care in specific environments, disaster situations, and locales, the TLA accelerates the transition to a disaster and battlefield medicine environment driven by man-machine teaming using interpretable analytics, artificial intelligence, and machine learning employing reliable measures based on extensive data gathered in the field by performers, related institutions, government, and other agencies. We can now go “from data to knowledge to performance.”
+
+
+** Start Here **
+
+Addressing and Integrating Multiple Perspectives, Principles, and Existing Efforts...
+ensure the new initiatives aid and enhance other ongoing efforts, notably the Telemedicine and Advanced Technology Research Center’s (TATRC) existing NETCCN performers, the Device Interoperability and Autonomy Coordinating Center (DIACC), the Data Commons, and stakeholders such as FEMA, SCCN and ASPR.
+
+
+
+
+
+
+
 
 ## Go further
 
