@@ -1,7 +1,7 @@
 ---
-title: "Main Introduction"
-description: "Overall description of our main content"
-lead: "Here is the top of our main content area."
+title: "TLA Overview"
+description: "TLA Introduction and Description"
+lead: "The Technology in Disaster Environments (TiDE) Learning Accelerator (TLA) addresses major gaps in evaluation of technology in disaster environments, research in disaster technologies, and the development of best practices for disaster and battlefield medicine."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,26 +15,36 @@ toc: true
 
 ## TLA
 
-Describe what TLA is. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The TLA addresses these gaps by delivering: 
+* an online Total Performance System (TPS) that provides disaster medicine performance measures using a proven approach already being used successfully in military contexts 
+* an online Best Practices and Learning Platform (BPLP) that provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities
+
+The TLA supports:
+*	the ability to synthesize real-time data obtained in the field contextualized by additional open-source databases 
+*	continuous learning for iteratively improving disaster healthcare
+*	an ability to identify lessons learned in the civilian context for dissemination and use in optimizing military healthcare during large scale combat operations (e.g., massive numbers of casualties)
+
+### Total Performance System
+
+{{< alert icon="👉" text="TO DO" />}}
+
+* Add link to TPS. We can also host public content from TPS (expose graphs, charts, etc.). 
+* Add description of TPS
 
 ### Best Practices and Learning Platform (BPLP)
 
 {{< alert icon="👉" text="TODO. Please edit me." />}}
 
-Describe what BPLP is and its purpose. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Total Performance System
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
-
-This side also links / hosts content from TPS. We can expose graphs, charts, etc.. that are part of TPS. So we should describe what TPS is. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Describe what BPLP is and its purpose. 
 
 ## Go further
 
-Recipes, Reference Guides, Extensions, and Showcase. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< alert icon="👉" text="TO DO" />}}
+
+Add Recipes, Reference Guides, Extensions, and Showcase Items.
 
 ## Contributing
 
-TODO. Describe how our readers can contribute to this project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< alert icon="👉" text="TO DO" />}}
 
-
+Describe how our readers can contribute to this project... 
