@@ -21,8 +21,8 @@ The TLA supports:
 *	an ability to identify lessons learned in the civilian context for dissemination and use in optimizing military healthcare during large scale combat operations (e.g., massive numbers of casualties)
 
 The TLA addresses the gaps in evaluation of technology in disaster environments, research in disaster technologies, and the development of best practices for disaster and battlefield medicine by delivering: 
-* an online Total Performance System (TPS) that provides disaster medicine performance measures using a proven approach already being used successfully in military contexts 
-* an online Best Practices and Learning Platform (BPLP) that provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities
+* a **Total Performance System (TPS)** that provides disaster medicine performance measures using a proven approach already being used successfully in military contexts 
+* a **Best Practices and Learning Platform (BPLP)** that provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities
 
 ### Total Performance System (TPS)
 
@@ -30,11 +30,11 @@ The TLA addresses the gaps in evaluation of technology in disaster environments,
 
 * Add link to TPS. We can also host public content from TPS (expose graphs, charts, etc.). 
 
-The online Total Performance System (TPS) provides disaster medicine performance measures using a proven approach already being used successfully in military contexts. 
+The online **Total Performance System (TPS)** provides disaster medicine performance measures using a proven approach already being used successfully in military contexts. 
 
 ### Best Practices and Learning Platform (BPLP)
 
-The online Best Practices and Learning Platform (BPLP) provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities.
+The online **Best Practices and Learning Platform (BPLP)** provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities.
 
 ## How the TLA...
 
@@ -48,7 +48,7 @@ The [National Emergency Tele-Critical Care Network (NETCCN)](https://www.tatrc.o
 *	What are the best practices for using technology in disaster and battlefield environments in this organic approach? 
 *	What are the key areas of research in how technology is applied?
 
-Prior to the implementation of the TLA, there was no way to answer these kinds of questions. Data was being generated, but it had not yet been transformed into actionable insight. The TLA bridges this gap using extensive capabilities in data science and performance science.
+Prior to the implementation of the TLA, there was no way to answer these kinds of questions. Data was being generated, but it had not yet been transformed into actionable insight. The **TLA** bridges this gap using extensive capabilities in data science and performance science.
 
 Through iteratively improved efficiency and effectiveness of patient care in specific environments, disaster situations, and locales, the TLA accelerates the transition to a disaster and battlefield medicine environment driven by man-machine teaming using interpretable analytics, artificial intelligence, and machine learning employing reliable measures based on extensive data gathered in the field by performers, related institutions, government, and other agencies. We can now go “from data to knowledge to performance.”
 
