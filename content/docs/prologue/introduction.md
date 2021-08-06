@@ -26,11 +26,11 @@ The **TLA** addresses the gaps in evaluation of technology in disaster environme
 
 ### Total Performance System (TPS)
 
+The online **Total Performance System (TPS)** provides disaster medicine performance measures using a proven approach already being used successfully in military contexts. 
+
 {{< alert icon="👉" text="TO DO" />}}
 
 * Add link to TPS. We can also host public content from TPS (expose graphs, charts, etc.). 
-
-The online **Total Performance System (TPS)** provides disaster medicine performance measures using a proven approach already being used successfully in military contexts. 
 
 ### Best Practices and Learning Platform (BPLP)
 
@@ -40,9 +40,7 @@ The online **Best Practices and Learning Platform (BPLP)** provides broadly acce
 
 {{< alert icon="👉" text="TO DO" />}}
 
-
-
-## How the TLA Supports the [NETCCN](https://www.tatrc.org/netccn/) Ecosystem
+## How the TLA Supports the [NETCCN Ecosystem](https://ctil.iu.edu/projects/tla/docs/prologue/netccn-tide/)
 
 The [National Emergency Tele-Critical Care Network (NETCCN)](https://www.tatrc.org/netccn/) is pioneering ways to deploy technologies that shift from traditional hub-and-spoke models to an organic “anywhere to anywhere” approach where capabilities, people, knowledge, and expertise are distributed in-person or virtually to the area of need, enabled by insights and best practices.
 
@@ -56,12 +54,6 @@ Prior to the implementation of the **TLA**, there was no way to answer these kin
 Through iteratively improved efficiency and effectiveness of patient care in specific environments, disaster situations, and locales, the **TLA** accelerates the transition to a disaster and battlefield medicine environment driven by man-machine teaming using interpretable analytics, artificial intelligence, and machine learning employing reliable measures based on extensive data gathered in the field by performers, related institutions, government, and other agencies. We can now go “from data to knowledge to performance.”
 
 The **TLA** is designed to integrate and build on existing efforts, and respond to key perspectives and principles, including the need for military relevance. It helps to ensure that new initiatives aid and enhance ongoing efforts by others in the [NETCCN](https://www.tatrc.org/netccn/) Ecosystem, notably the [Telemedicine and Advanced Technology Research Center’s (TATRC)](https://www.tatrc.org/) existing [NETCCN performers](https://www.tatrc.org/netccn/teams.html), the Device Interoperability and Autonomy Coordinating Center (DIACC), the [JHU/APL](https://www.jhuapl.edu/) Data Commons, and stakeholders such as [FEMA](https://www.fema.gov/), [SCCM](https://www.sccm.org/), and [ASPR](https://www.phe.gov/about/aspr/Pages/default.aspx).
-
-## Go further
-
-{{< alert icon="👉" text="TO DO" />}}
-
-Add Recipes, Reference Guides, Extensions, and Showcase Items.
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 ---
-title: "Papers"
-description: "BPLP Papers"
-lead: "Literatures relevant for telemedicine for emergency and critical care."
+title: "Articles"
+description: "BPLP Articles"
+lead: "Literature relevant to telemedicine in emergency and critical care."
 date: 2020-11-12T15:22:20+01:00
 lastmod: 2020-11-12T15:22:20+01:00
 draft: false
@@ -62,4 +62,4 @@ We found wide variation in the prevalence of tele-ICUs across HRRs and states. F
 
 #### Submit New Article
 
-If you'd like to add a new article/papers on this page, please let us know by submitting a new github issues at [CTIL/TLA issues](https://github.com/iuctil/tla/issues)
+If you'd like to add a new article or paper to this page, please let us know by submitting a new "GitHub issue" at [CTIL/TLA issues](https://github.com/iuctil/tla/issues).

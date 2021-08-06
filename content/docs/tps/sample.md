@@ -1,7 +1,7 @@
 ---
-title: "TPS Sample"
-description: "TODO.."
-lead: "Show things we could display for TPS"
+title: "TPS Public Content"
+description: "TPS (Public)"
+lead: "Public Content from the Total Performance System (TPS)"
 date: 2020-11-12T15:22:20+01:00
 lastmod: 2020-11-12T15:22:20+01:00
 draft: false
@@ -13,18 +13,4 @@ weight: 720
 toc: true
 ---
 
-## Problems updating npm packages
-
-Delete the `./node_modules` folder, and run again:
-
-```bash
-npm install
-```
-
-## Problems with cache
-
-Delete the temporary directories:
-
-```bash
-npm run clean
-```
+{{< alert icon="👉" text="TO DO" />}}
