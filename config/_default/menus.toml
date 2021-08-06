@@ -6,13 +6,13 @@
 
 [[docs]]
   name = "TPS"
-  weight = 70
+  weight = 60
   identifier = "tps"
   url = "/docs/tps/"
 
 [[docs]]
   name = "BPLP"
-  weight = 60
+  weight = 70
   identifier = "bplp"
   url = "/docs/bplp/"
 
