@@ -9,19 +9,36 @@ images: []
 menu:
   docs:
     parent: "bplp"
-weight: 630
+weight: 340
 toc: true
 ---
+
+### Telecritical Care Clinical and Operational Strategies in Response to COVID-19
+[https://doi.org/10.1089/tmj.2020.0186](https://doi.org/10.1089/tmj.2020.0186)
+
+Jaspal Singh;
+Michael B. Green;
+Scott Lindblom;
+Michael S. Lindblom;
+Michael S. Reif
+
+**Background** The cororavirus disease 19 (COVID-19) pandemic has strained intensive care unit (ICU) material and human resources to global crisis levels. The risks of staffing challenges and clinician exposure are of significant concern. One resource, telecritical care (TCC), has the potential to optimize efficiency, maximize safety, and improve quality of care provided amid large-scale disruptions, but its role in pandemic situations is only loosely defined.
+
+**Planning and Preparation Phase** We propose strategic initiatives by which TCC may act as a force multiplier for pandemic preparedness in response to COVID-19, utilizing a tiered approach for increasing surge capacity needs. The goals involved usage of TCC to augment ICU capacity, optimize safety, minimize personal protective equipment (PPE) use, improve efficiencies, and enhance knowledge of managing pandemic response.
+
+**Implementation Phase** A phased approach utilizing TCC would involve implementing remote capabilities across the enterprise to accomplish the goals outlined. The hardware and software needed for initial expansion to cover 275 beds included $956,670 for mobile carts and $173,106 for home workstations. Team role deployment and bedside clinical care centering around TCC as critical care capacity expand beyond 275 beds. Surge capacity was not reached during early phases of the pandemic in the region, allowing refinement of TCC during subsequent pandemic phases.
+
+**Conclusions** Leveraging TCC facilitated pandemic surge planning but required redefinition of typical ICU staffing models. The design was meant to workforce efficiencies, reduce PPE use, and minimize health care worker exposure risk, all while maintaining quality care standards through an intensivist-led model. As health care operations resumed and states reopened, TCC is being used to support shifts in volume and critical care personnel during the pandemic evolution. The lessons applied may help health care systems through variable phases of the pandemic.
 
 ### The US Strategic National Stockpile Ventilators in Coronavirus Disease 2019
 [https://doi.org/10.1016/j.chest.2020.09.085](https://doi.org/10.1016/j.chest.2020.09.085)
 
-Rich Branson, MSc
-Jeffrey R. Dichter, MD
-Henry Feldman, MD
-Ryan C. Maves, MD
-Niranjan “Tex” Kissoon, MB
-Lewis Rubinson, MD, PhD
+Rich Branson, MSc;
+Jeffrey R. Dichter, MD;
+Henry Feldman, MD;
+Ryan C. Maves, MD;
+Niranjan “Tex” Kissoon, MB;
+Lewis Rubinson, MD, PhD;
 Show all authors
 
 **Background** Early in the coronavirus disease 2019 (COVID-19) pandemic, there was serious concern that the United States would encounter a shortfall of mechanical ventilators. In response, the US government, using the Defense Production Act, ordered the development of 200,000 ventilators from 11 different manufacturers. These ventilators have different capabilities, and whether all are able to support COVID-19 patients is not evident.  **Research Question** Evaluate ventilator requirements for affected COVID-19 patients, assess the clinical performance of current US Strategic National Stockpile (SNS) ventilators employed during the pandemic, and finally, compare ordered ventilators’ functionality based on COVID-19 patient needs. **Study Design and Methods** Current published literature, publicly available documents, and lay press articles were reviewed by a diverse team of disaster experts. Data were assembled into tabular format, which formed the basis for analysis and future recommendations. **Results** COVID-19 patients often develop severe hypoxemic acute respiratory failure and adult respiratory defense syndrome (ARDS), requiring high levels of ventilator support. Current SNS ventilators were unable to fully support all COVID-19 patients, and only approximately half of newly ordered ventilators have the capacity to support the most severely affected patients; ventilators with less capacity for providing high-level support are still of significant value in caring for many patients. **Interpretation** Current SNS ventilators and those on order are capable of supporting most but not all COVID-19 patients. Technologic, logistic, and educational challenges encountered from current SNS ventilators are summarized, with potential next-generation SNS ventilator updates offered.
