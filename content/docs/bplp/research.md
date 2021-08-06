@@ -1,7 +1,7 @@
 ---
-title: "BPLP Sample"
-description: "BPLP Sample page."
-lead: "TODO - show BPLP sample page"
+title: "BPLP Research"
+description: "BPLP Research"
+lead: "Best Practices and Learning Platform (BPLP) Research"
 date: 2020-11-12T15:22:20+01:00
 lastmod: 2020-11-12T15:22:20+01:00
 draft: false
@@ -13,6 +13,4 @@ weight: 620
 toc: true
 ---
 
-## TODO
-
-Show some sample content for BPLP
+{{< alert icon="👉" text="TO DO" />}}

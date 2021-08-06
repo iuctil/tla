@@ -3,8 +3,8 @@
 ## Homepage
 title = "TLA"
 titleSeparator = "-"
-titleAddition = "TIDE Learning Accelerator"
-description = "This is a temporary site to get TLA project started. This text can be updated by editing config/_default/params.toml"
+titleAddition = "TiDE Learning Accelerator"
+description = "This is the online home of the Technology in Disaster Environments (TiDE) Learning Accelerator (TLA)"
 
 ## Open Graph
 images = ["doks.png"]
