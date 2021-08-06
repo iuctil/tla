@@ -1,0 +1,60 @@
+<div id="network-diagram" style="width: 100%; height:500px; background-color: #eee;">
+  {{ .Inner }}
+</div>
+
+<script src="https://unpkg.com/gojs/release/go-debug.js"></script>
+<script>
+  // For conciseness. See the "Building Parts" intro page for more
+var $ = go.GraphObject.make;
+
+var diagram =
+  $(go.Diagram, "network-diagram",
+    { // enable Ctrl-Z to undo and Ctrl-Y to redo
+      "undoManager.isEnabled": true
+    });
+
+// the node template describes how each Node should be constructed
+diagram.nodeTemplate =
+  $(go.Node, "Auto",  // the Shape automatically fits around the TextBlock
+    $(go.Shape, "RoundedRectangle",  // use this kind of figure for the Shape
+      // bind Shape.fill to Node.data.color
+      new go.Binding("fill", "color")),
+    $(go.TextBlock,
+      { margin: 3 },  // some room around the text
+      // bind TextBlock.text to Node.data.key
+      new go.Binding("text", "key"))
+  );
+
+diagram.linkTemplate =
+  $(go.Link,
+    // The first shape in a link is special, its geometry is set by the Link's routing,
+    // so it does not need a geometry or figure set manually
+    $(go.Shape,
+      { strokeWidth: 2, stroke: 'gray' }),
+    $(go.Shape,
+      //https://gojs.net/latest/extensions/Arrowheads.js
+      { toArrow: "Line"})
+  );
+
+// the Model holds only the essential information describing the diagram
+diagram.model = new go.GraphLinksModel(
+[ // a JavaScript Array of JavaScript objects, one per node;
+  // the "color" property is added specifically for this app
+  { key: "netccn", color: "lightblue" },
+  { key: "tide", color: "orange" },
+  //{ key: "Gamma", color: "lightgreen", group: 5 },
+  //{ key: "Delta", color: "pink", group: 5 },
+  //{ key: 5, text: "Epsilon", color: "green", isGroup: true }
+],
+[ // a JavaScript Array of JavaScript objects, one per link
+  { from: "netccn", to: "tide" },
+  //{ from: "Alpha", to: "Beta" },
+  //{ from: "Alpha", to: "Gamma" },
+  //{ from: "Beta", to: "Beta" },
+  //{ from: "Gamma", to: "Delta" },
+  //{ from: "Delta", to: "Alpha" }
+]);
+
+// enable Ctrl-Z to undo and Ctrl-Y to redo
+diagram.undoManager.isEnabled = true;
+</script>

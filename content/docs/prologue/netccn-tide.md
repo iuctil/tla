@@ -9,10 +9,11 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 200
+weight: 20
 toc: true
 ---
 
 ## NETCCN-TiDE Ecosystem
 
-{{< alert icon="👉" text="TO DO" />}}
+{{< network />}}
+
