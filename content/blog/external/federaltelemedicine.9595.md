@@ -9,6 +9,7 @@ draft: false
 extlink: "http://federaltelemedicine.com/?p=9595"
 extcategories: ["Uncategorized","HCDT&I meeting"]
 contributors: ["Carolyn Bloch"]
+toc: false
 menu:
   blog:
     parent: "external"

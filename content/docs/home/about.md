@@ -8,7 +8,7 @@ menu:
   docs:
     parent: "home"
 weight: 100
-toc: true
+toc: false
 ---
 
 ![logo](/images/logo_with_title.png)

@@ -9,6 +9,7 @@ draft: false
 extlink: "http://federaltelemedicine.com/?p=9616"
 extcategories: ["Corporate","Artificial Fibrillation"]
 contributors: ["Carolyn Bloch"]
+toc: false
 menu:
   blog:
     parent: "external"

@@ -9,6 +9,7 @@ draft: false
 extlink: "http://federaltelemedicine.com/?p=9599"
 extcategories: ["Uncategorized","kidney care"]
 contributors: ["Carolyn Bloch"]
+toc: false
 menu:
   blog:
     parent: "external"

@@ -52,6 +52,7 @@ draft: false
 extlink: "${item.link}"
 extcategories: [${item.categories.map(cat=>'"'+cat+'"')}]
 contributors: ["${item.creator}"]
+toc: false
 menu:
   blog:
     parent: "external"

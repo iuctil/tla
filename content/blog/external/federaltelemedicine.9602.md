@@ -9,6 +9,7 @@ draft: false
 extlink: "http://federaltelemedicine.com/?p=9602"
 extcategories: ["Corporate","Realyze Intelligence"]
 contributors: ["Carolyn Bloch"]
+toc: false
 menu:
   blog:
     parent: "external"

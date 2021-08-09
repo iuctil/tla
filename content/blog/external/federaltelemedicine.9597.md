@@ -9,6 +9,7 @@ draft: false
 extlink: "http://federaltelemedicine.com/?p=9597"
 extcategories: ["Corporate","stroke treatment"]
 contributors: ["Carolyn Bloch"]
+toc: false
 menu:
   blog:
     parent: "external"
