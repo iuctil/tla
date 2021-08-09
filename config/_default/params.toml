@@ -7,33 +7,32 @@ titleAddition = "TiDE Learning Accelerator"
 description = "This is the online home of the Technology in Disaster Environments (TiDE) Learning Accelerator (TLA)"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["images/logo_with_title.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "TiDE Learning Accelerator"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@iuctil"
+twitterCreator = "@soichih"
 
 ## JSON-LD
-# schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "IU/CTIL"
+schemaAuthor = "Soichi Hayashi"
+schemaAuthorTwitter = "https://twitter.com/soichih"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/soichih/"
+schemaAuthorGitHub = "https://github.com/soichih"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaLogo = "images/logox478.png"
+schemaLogoWidth = 478
+schemaLogoHeight = 478
+schemaImage = "images/logo_with_titlex1500.png"
+schemaImageWidth = 1943
+schemaImageHeight = 479
+schemaTwitter = "https://twitter.com/iuctil"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/iuctil"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
