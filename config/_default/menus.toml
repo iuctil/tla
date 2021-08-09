@@ -1,41 +1,27 @@
 [[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
+  name = "About"
+  url = "/docs/home/about/"
   weight = 10
 
 [[main]]
-  name = "Blog"
+  name = "BPLP"
   url = "/blog/internal"
   weight = 20
 
 [[main]]
-  name = "Discussion"
-  url = "https://github.com/iuctil/tla/discussions"
+  name = "TPS"
+  url = "/tps/intro"
   weight = 30
 
 [[docs]]
-  name = "TLA"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  name = "Home"
+  identifier = "home"
+  weight = 100
 
 [[docs]]
-  name = "TPS"
-  weight = 60
-  identifier = "tps"
-  url = "/docs/tps/"
-
-[[docs]]
-  name = "BPLP"
-  weight = 70
-  identifier = "bplp"
-  url = "/docs/bplp/"
-
-[[docs]]
-  name = "Misc"
-  weight = 80
-  identifier = "misc"
-  url = "/docs/misc/"
+  name = "Articles"
+  identifier = "articles"
+  weight = 200
 
 [[social]]
   name = "Twitter"

@@ -6,11 +6,8 @@ date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "tps"
 weight: 200
-toc: true
+toc: false
 ---
 
-{{< alert icon="👉" text="TO DO" />}}
+<a class="btn btn-primary btn-lg px-4 mb-2" href="https://tla.ops1.com" target="tps" role="button">Open TPS</a>

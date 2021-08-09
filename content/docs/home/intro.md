@@ -4,11 +4,11 @@ description: "Best Practices and Learning Platform (BPLP) Introduction and Descr
 lead: "The online Best Practices and Learning Platform (BPLP) provides broadly accessible insights, best practices, and learning tools for disaster and battlefield medicine based on extensive research capabilities."
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
-    parent: "bplp"
+    parent: "home"
 weight: 300
 toc: true
 ---

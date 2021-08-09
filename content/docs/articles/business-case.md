@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "bplp"
+    parent: "articles"
 weight: 340
 toc: true
 ---

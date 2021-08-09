@@ -1,12 +1,12 @@
 ---
-title: "TLA Overview"
+title: "About"
 description: "TLA Introduction and Description"
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 menu:
   docs:
-    parent: "prologue"
+    parent: "home"
 weight: 100
 toc: true
 ---
