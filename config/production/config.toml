@@ -1,2 +1,2 @@
-baseurl = "https://ctil.iu.edu/projects/tla/"
+baseurl = "https://ctil.iu.edu/tla/"
 canonifyURLs = true

@@ -59,7 +59,7 @@ alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/
 
 # Edit Page
 docsRepo = "https://github.com/iuctil/tla"
-editPage = false
+editPage = true
 
 [options]
   lazySizes = true
