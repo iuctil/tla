@@ -1,7 +1,6 @@
 ---
 title: "TLA Overview"
 description: "TLA Introduction and Description"
-lead: "The Technology in Disaster Environments (TiDE) Learning Accelerator (TLA) addresses major gaps in evaluation of technology in disaster environments, research in disaster technologies, and the development of best practices for disaster and battlefield medicine."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,7 +12,6 @@ toc: true
 ---
 
 ![logo](/images/logo_with_title.png)
-## The Technology in Disaster Environments (TiDE) Learning Accelerator (TLA)
 
 Crisis is, unfortunately, the new normal for the world. The climate emergency is producing more severe hurricane and wildfire seasons, as well as increasing temperature extremes, flooding and drought. The COVID19 pandemic is stretching our resources to the maximum. Our societal dependence on technology is itself creating emergencies and disasters and is injecting new vulnerabilities into our way of living.
 

@@ -2,9 +2,10 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
+      <img src="{{ "/images/logox478.png" | relURL }}" height="150px"/>
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-9 col-xl-8 text-center">
+    <div class="col-lg-11 col-xl-10 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Get started</a>
       <!--
@@ -42,7 +43,7 @@
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Page layouts</h2>
-        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>    
+        <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Dark mode</h2>
