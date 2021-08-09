@@ -71,7 +71,7 @@ rel  = "sitemap"
   priority = 0.5
 
 [taxonomies]
-  source = "source"
+  categories = "categories"
   contributor = "contributors"
 
 [permalinks]

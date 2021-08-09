@@ -1,9 +1,39 @@
-<h3>Sources</h3>
-<ul class="list-unstyled">
-  {{ $currentPage := . }}
-    {{ range .Site.Taxonomies.source }}
-            {{ $path := (printf "/%s/%s/" "blog" .Page.Title) }}
-            {{ $active := eq $path $currentPage.URL }}
-            <li style="text-transform: uppercase; "><a href="{{ $path | relURL }}" class="docs-link{{ if $active }} active{{ end }}">{{ .Page.Title }} ({{ .Count }})</a></li>
-    {{ end }}
-</ul>
+{{ if .Site.Params.options.collapsibleSidebar -}}
+  <ul class="list-unstyled collapsible-sidebar">
+  {{ $currentPage := . -}}
+  {{ range $index, $element := .Site.Menus.blog -}}
+  {{- $active := or ($currentPage.IsMenuCurrent "blog" .) ($currentPage.HasMenuCurrent "blog" .) -}}
+  {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
+    <li class="mb-1">
+      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#{{ .Identifier }}" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+        {{ .Name }}
+      </button>
+      {{ if .HasChildren -}}
+      <div class="collapse{{ if $active }} show{{ end }}" id="{{ .Identifier }}">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+        {{ range .Children -}}
+          {{- $active := or ($currentPage.IsMenuCurrent "blog" .) ($currentPage.HasMenuCurrent "blog" .) -}}
+          {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
+          <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end -}}
+        </ul>
+      </div>
+      {{ end -}}
+    </li>
+  {{ end -}}
+  </ul>
+{{ else -}}
+  {{ $currentPage := . -}}
+  {{ range .Site.Menus.blog -}}
+    <h3>{{ .Name }}</h3>
+    {{ if .HasChildren -}}
+    <ul class="list-unstyled">
+      {{ range .Children -}}
+        {{- $active := or ($currentPage.IsMenuCurrent "blog" .) ($currentPage.HasMenuCurrent "blog" .) -}}
+        {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
+        <li><a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{ end -}}
+    </ul>
+    {{ end -}}
+  {{ end -}}
+{{ end -}}

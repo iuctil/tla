@@ -26,7 +26,7 @@ const parser = new Parser();
     feed.items.forEach(item=>{
         const pageid = item.link.split("?p=")[1]; //link: 'http://federaltelemedicine.com/?p=9544',
         const id = "federaltelemedicine."+pageid;
-        const filepath = __dirname+"/../content/blog/"+id+".md";
+        const filepath = __dirname+"/../content/blog/external/"+id+".md";
 
         //if(fs.existsSync(filepath)) return; //don't overwrite if it already exists
 
@@ -50,9 +50,11 @@ date: ${item.isoDate}
 lastmod: ${item.isoDate}
 draft: false
 extlink: "${item.link}"
-images: []
-categories: [${item.categories.map(cat=>'"'+cat+'"')}]
+extcategories: [${item.categories.map(cat=>'"'+cat+'"')}]
 contributors: ["${item.creator}"]
+menu:
+  blog:
+    parent: "external"
 ---
 `;
         console.log("writing", id);
