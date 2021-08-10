@@ -8,6 +8,7 @@ images: []
 menu:
   docs:
     parent: "others"
+weight: 300
 ---
 
 __TLDR__: We do not use cookies and we do not collect any personal data.
