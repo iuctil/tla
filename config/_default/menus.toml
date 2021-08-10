@@ -4,13 +4,13 @@
   weight = 10
 
 [[main]]
-  name = "BPLP"
-  url = "/blog"
+  name = "TPS"
+  url = "/tps/intro"
   weight = 20
 
 [[main]]
-  name = "TPS"
-  url = "/tps/intro"
+  name = "BPLP"
+  url = "/blog"
   weight = 30
 
 [[docs]]
@@ -19,13 +19,13 @@
   weight = 100
 
 [[docs]]
-  name = "Others"
-  identifier = "others"
+  name = "Articles"
+  identifier = "articles"
   weight = 200
 
 [[docs]]
-  name = "Articles"
-  identifier = "articles"
+  name = "Other"
+  identifier = "others"
   weight = 300
 
 [[blog]]
