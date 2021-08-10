@@ -19,12 +19,7 @@
   weight = 100
 
 [[docs]]
-  name = "Articles"
-  identifier = "articles"
-  weight = 200
-
-[[docs]]
-  name = "Other"
+  name = "Others"
   identifier = "others"
   weight = 300
 
@@ -44,6 +39,11 @@
   weight = 300
 
 [[blog]]
+  name = "Articles"
+  identifier = "articles"
+  weight = 350
+
+[[blog]]
   name = "External Blogs"
   identifier = "external"
   weight = 400
@@ -61,7 +61,17 @@
   post = "v0.1.0"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[footer]]
+  name = "Home"
+  url = "/docs/home/about/"
+  weight = 10
+
+[[footer]]
+  name = "Privacy"
+  url = "/docs/privacy-policy/"
+  weight = 20
+
+[[footer]]
+  name = "Contact"
+  url = "/docs/contact/"
+  weight = 30
