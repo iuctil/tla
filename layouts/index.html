@@ -9,8 +9,9 @@
     </div>
     <div class="col-lg-11 col-xl-10 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a href="{{ "docs/home/about" | relURL }}">Learn More...</a>
       <br>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/home/about" | relURL }}" role="button">Get started</a>
+      <br>
       <!--
       <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</a></p>
       -->
@@ -24,12 +25,12 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
-        <h2 class="h4">TPS</h2>
-        <p>The <a href="/tps/intro/">Total Performance System (TPS)</a> allows near real-time aggregation and analytics of performance data related to the use of technology in disaster situations, available to <a href="https://www.tatrc.org/netccn/" target="netccn">NETCCN</a> stakeholders.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "/tps/intro/" | relURL }}" role="button"><b>TPS</b></a>
+        <p>The <b>Total Performance System (TPS)</b> allows near real-time aggregation and analytics of performance data related to the use of technology in disaster situations, available to <a href="https://www.tatrc.org/netccn/" target="netccn">NETCCN</a> stakeholders.</p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">BPLP</h2>
-        <p> The <a href="/blog/">Best Practices and Learning Platform (BPLP)</a> is an online repository for research, best practices, insights, and learning, allowing sharing between domains and areas of expertise and across silos.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "/blog/" | relURL }}" role="button"><b>BPLP</b></a>
+        <p> The <b>Best Practices and Learning Platform (BPLP)</b> is an online repository for research, best practices, insights, and learning, allowing sharing between domains and areas of expertise, and across silos.</p>
       </div>
       <!--
       <div class="col-lg-5">
