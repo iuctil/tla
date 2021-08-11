@@ -40,19 +40,101 @@ diagram.linkTemplate =
 diagram.model = new go.GraphLinksModel(
 [ // a JavaScript Array of JavaScript objects, one per node;
   // the "color" property is added specifically for this app
+  
+  { key: "Army Futures Command", color: "mediumseagreen", group: 1 },
+  { key: "ASPR", color: "mediumseagreen", group: 1 },
+  { key: "SCCM", color: "mediumseagreen", group: 1 },
+  { key: "TATRC", color: "mediumseagreen", group: 1 },
+  { key: "US Army MRDC", color: "mediumseagreen", group: 1 },
+  // { key: 1, text: "Partners", color: "darkgreen", isGroup: true }
+
+
+  
+  { key: "Avera", color: "mediumseagreen", group: 2 },
+  { key: "Deloitte", color: "mediumseagreen", group: 2 },
+  { key: "Expression", color: "mediumseagreen", group: 2 },
+  { key: "Geneva", color: "mediumseagreen", group: 2 },
+  // { key: 2, text: "Performers", color: "darkgreen", isGroup: true }
+  
+  { key: "ViTel Net", color: "mediumseagreen" },
+  { key: "DocBox", color: "mediumseagreen" },
+  { key: "Omnicure", color: "mediumseagreen" },
+  { key: "MAMC", color: "mediumseagreen" },
+  { key: "MD PnP", color: "mediumseagreen" },
+
+  { key: "TR4OS", color: "palegreen" },
+
   { key: "NETCCN", color: "green" },
-  { key: "TiDE", color: "lightblue" },
-  //{ key: "Gamma", color: "lightgreen", group: 5 },
+
+  { key: "TiDE", color: "dodgerblue" },
+
+  { key: "C-PAM", color: "cornflowerblue" },
+  { key: "Data Commons", color: "cornflowerblue" },
+  { key: "DIACC", color: "cornflowerblue" },
+  { key: "MDIA", color: "cornflowerblue" },
+  { key: "MCNIS", color: "cornflowerblue" },
+  { key: "TLA", color: "cornflowerblue" },
+
+  { key: "MGH", color: "paleturquoise" },
+  { key: "JHU/APL", color: "paleturquoise" },
+  { key: "MITRE", color: "paleturquoise" },
+  { key: "Cog Med", color: "paleturquoise" },
+  { key: "OrangeMed", color: "paleturquoise" },
+  { key: "NDMS", color: "paleturquoise" },
+  { key: "USUHS", color: "paleturquoise" },
+  { key: "IU CTIL", color: "paleturquoise" },
+
+  { key: "D2D", color: "paleturquoise" },
+  { key: "DisasterTech", color: "paleturquoise" },
+  { key: "OPS", color: "paleturquoise" },
+
+  //{ key: "Gamma", color: "darkgreen", group: 5 },
   //{ key: "Delta", color: "pink", group: 5 },
   //{ key: 5, text: "Epsilon", color: "green", isGroup: true }
 ],
 [ // a JavaScript Array of JavaScript objects, one per link
   { from: "NETCCN", to: "TiDE" },
-  //{ from: "Alpha", to: "Beta" },
-  //{ from: "Alpha", to: "Gamma" },
-  //{ from: "Beta", to: "Beta" },
-  //{ from: "Gamma", to: "Delta" },
-  //{ from: "Delta", to: "Alpha" }
+  { from: "NETCCN", to: "Army Futures Command" },
+  { from: "NETCCN", to: "ASPR" },
+  { from: "NETCCN", to: "SCCM" },
+  { from: "NETCCN", to: "TATRC" },
+  { from: "NETCCN", to: "US Army MRDC" },
+  { from: "NETCCN", to: "Avera" },
+  { from: "NETCCN", to: "Deloitte" },
+  { from: "NETCCN", to: "Expression" },
+  { from: "NETCCN", to: "Geneva" },
+
+  { from: "Avera", to: "ViTel Net" },
+  { from: "Geneva", to:  "DocBox"},
+  { from: "Geneva", to:  "Omnicure"},
+  { from: "Geneva", to:  "MAMC"},
+  { from: "Geneva", to:  "MD PnP"},
+
+  { from: "MAMC", to:  "TR4OS"},
+
+  { from: "TiDE", to: "C-PAM" },
+  { from: "TiDE", to: "Data Commons" },
+  { from: "TiDE", to: "DIACC" },
+  { from: "TiDE", to: "MDIA" },
+  { from: "TiDE", to: "MCNIS" },
+  { from: "TiDE", to: "TLA" },
+
+  { from: "C-PAM", to:  "Expression"},
+  { from: "C-PAM", to:  "Geneva"},
+  { from: "C-PAM", to:  "MGH"},
+  { from: "Data Commons", to:  "JHU/APL"},
+  { from: "DIACC", to:  "MITRE"},
+  { from: "MDIA", to:  "Cog Med"},
+  { from: "MDIA", to:  "MGH"},
+  { from: "MDIA", to:  "OrangeMed"},
+  { from: "MCNIS", to:  "NDMS"},
+  { from: "MCNIS", to:  "USUHS"},
+  { from: "TLA", to:  "IU CTIL"},
+
+  { from: "IU CTIL", to:  "D2D"},
+  { from: "IU CTIL", to:  "DisasterTech"},
+  { from: "IU CTIL", to:  "OPS"},
+
 ]);
 
 // enable Ctrl-Z to undo and Ctrl-Y to redo
