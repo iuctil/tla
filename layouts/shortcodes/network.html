@@ -1,6 +1,13 @@
-<div id="network-diagram" style="width: 100%; height:500px; background-color: #eee;">
+<div id="network-diagram" style="width: 100%; height:600px; background-color: #eee;">
   {{ .Inner }}
 </div>
+
+<div style="background-color: #ddd">
+  <h3>For Developers</h3>
+  <button onclick="serializeDiagram()">Serialize Diagram (to console)</button>
+
+</div>
+
 
 <script src="https://unpkg.com/gojs/release/go-debug.js"></script>
 <script>
@@ -13,24 +20,74 @@ var diagram =
       "undoManager.isEnabled": true
     });
 
+diagram.grid.visible = true;
+diagram.grid.gridCellSize = new go.Size(30, 20);
+diagram.toolManager.draggingTool.isGridSnapEnabled = true;
+diagram.toolManager.resizingTool.isGridSnapEnabled = true;
+
 // the node template describes how each Node should be constructed
 diagram.nodeTemplate =
   $(go.Node, "Auto",  // the Shape automatically fits around the TextBlock
+    //{ resizable: true},
+    new go.Binding("location", "loc", go.Point.parse).makeTwoWay(go.Point.stringify),
     $(go.Shape, "RoundedRectangle",  // use this kind of figure for the Shape
+      //{ fromLinkable: true, toLinkable: true, cursor: "pointer"},
       // bind Shape.fill to Node.data.color
-      new go.Binding("fill", "color")),
+      new go.Binding("fill", "color"),
+      new go.Binding("width", "width"),
+      new go.Binding("height", "height"),
+      //new go.Binding("desiredSize", "size", go.Size.parse).makeTwoWay(go.Size.stringify),
+    ),
     $(go.TextBlock,
       { margin: 3 },  // some room around the text
       // bind TextBlock.text to Node.data.key
       new go.Binding("text", "key"))
   );
 
+  diagram.groupTemplate =
+  $(go.Group, "Vertical",
+    { selectionObjectName: "PH",
+      locationObjectName: "PH",
+      resizable: true,
+      resizeObjectName: "PH" },
+    new go.Binding("location", "loc", go.Point.parse).makeTwoWay(go.Point.stringify),
+    $(go.TextBlock,  // group title
+      { font: "Bold 12pt Sans-Serif" },
+      new go.Binding("text", "key")),
+    $(go.Shape,  // using a Shape instead of a Placeholder
+      { name: "PH",
+        fill: "lightyellow" },
+      new go.Binding("desiredSize", "size", go.Size.parse).makeTwoWay(go.Size.stringify))
+  );
+
+
+
+/*
+diagram.toolManager.linkingTool.temporaryLink =
+  $(go.Link,
+    { layerName: "Tool" },
+    $(go.Shape,
+      { stroke: "red", strokeWidth: 2, strokeDashArray: [4, 2] })
+  );
+var tempfromnode =
+  $(go.Node,
+    { layerName: "Tool" },
+    $(go.Shape, "RoundedRectangle",
+      { stroke: "chartreuse", strokeWidth: 3, fill: null,
+        portId: "", width: 1, height: 1 })
+  );
+diagram.toolManager.linkingTool.temporaryFromNode = tempfromnode;
+diagram.toolManager.linkingTool.temporaryFromPort = tempfromnode.port;
+*/
+
 diagram.linkTemplate =
   $(go.Link,
+  //{ reshapable: true, resegmentable: true, routing: go.Link.Orthogonal },
     // The first shape in a link is special, its geometry is set by the Link's routing,
     // so it does not need a geometry or figure set manually
+    { routing: go.Link.AvoidsNodes, corner: 10},
     $(go.Shape,
-      { strokeWidth: 2, stroke: 'gray' }),
+      { strokeWidth: 1.5, stroke: 'gray' }),
     $(go.Shape,
       //https://gojs.net/latest/extensions/Arrowheads.js
       { toArrow: "Line"})
@@ -40,7 +97,7 @@ diagram.linkTemplate =
 diagram.model = new go.GraphLinksModel(
 [ // a JavaScript Array of JavaScript objects, one per node;
   // the "color" property is added specifically for this app
-  
+
   { key: "Army Futures Command", color: "mediumseagreen", group: 1 },
   { key: "ASPR", color: "mediumseagreen", group: 1 },
   { key: "SCCM", color: "mediumseagreen", group: 1 },
@@ -49,13 +106,13 @@ diagram.model = new go.GraphLinksModel(
   // { key: 1, text: "Partners", color: "darkgreen", isGroup: true }
 
 
-  
+
   { key: "Avera", color: "mediumseagreen", group: 2 },
   { key: "Deloitte", color: "mediumseagreen", group: 2 },
   { key: "Expression", color: "mediumseagreen", group: 2 },
   { key: "Geneva", color: "mediumseagreen", group: 2 },
   // { key: 2, text: "Performers", color: "darkgreen", isGroup: true }
-  
+
   { key: "ViTel Net", color: "mediumseagreen" },
   { key: "DocBox", color: "mediumseagreen" },
   { key: "Omnicure", color: "mediumseagreen" },
@@ -64,9 +121,10 @@ diagram.model = new go.GraphLinksModel(
 
   { key: "TR4OS", color: "palegreen" },
 
-  { key: "NETCCN", color: "green" },
+  //{ key: "NETCCN", color: "green", width: 100, height: 50,  loc: "20 30"},
+  {"key":"NETCCN","color":"green","width":100,"height":50,"loc":"150 -160"},
+  { key: "TiDE", color: "dodgerblue"},
 
-  { key: "TiDE", color: "dodgerblue" },
 
   { key: "C-PAM", color: "cornflowerblue" },
   { key: "Data Commons", color: "cornflowerblue" },
@@ -88,9 +146,9 @@ diagram.model = new go.GraphLinksModel(
   { key: "DisasterTech", color: "paleturquoise" },
   { key: "OPS", color: "paleturquoise" },
 
-  //{ key: "Gamma", color: "darkgreen", group: 5 },
-  //{ key: "Delta", color: "pink", group: 5 },
-  //{ key: 5, text: "Epsilon", color: "green", isGroup: true }
+  {"key":"Gamma","color":"darkgreen","group":"Test Group","loc":"262.34000000000003 372.673"},
+  {"key":"Delta","color":"pink","group":"Test Group","loc":"330 440"},
+  {"key":"Test Group","color":"green","isGroup":true,"loc":"240 360","size":"150 120"}
 ],
 [ // a JavaScript Array of JavaScript objects, one per link
   { from: "NETCCN", to: "TiDE" },
@@ -135,8 +193,14 @@ diagram.model = new go.GraphLinksModel(
   { from: "IU CTIL", to:  "DisasterTech"},
   { from: "IU CTIL", to:  "OPS"},
 
+  { from: "OPS", to: "Test Group"},
+  { from: "Gamma", to: "Delta"},
 ]);
 
 // enable Ctrl-Z to undo and Ctrl-Y to redo
 diagram.undoManager.isEnabled = true;
+
+function serializeDiagram() {
+  console.log(diagram.model.toJson());
+}
 </script>
