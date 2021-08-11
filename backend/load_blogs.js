@@ -3,8 +3,22 @@ const fs = require('fs');
 const Parser = require('rss-parser');
 const parser = new Parser();
 
-(async ()=>{
-  const feed = await parser.parseURL("http://federaltelemedicine.com/?feed=rss2");
+const cyrb53 = function(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1>>>0);
+};
+
+async function loadFeed(rssUrl, key) {
+  //const feed = await parser.parseURL("http://federaltelemedicine.com/?feed=rss2");
+  //const feed = await parser.parseURL("https://www.phe.gov/ASPRBlog/_layouts/15/listfeed.aspx?List=f59454e5-a08d-4a13-9abe-0d31ef99f1af");
+  const feed = await parser.parseURL(rssUrl);
   console.dir(feed);
   /*
   {
@@ -24,9 +38,11 @@ const parser = new Parser();
     },
   */
     feed.items.forEach(item=>{
-        const pageid = item.link.split("?p=")[1]; //link: 'http://federaltelemedicine.com/?p=9544',
-        const id = "federaltelemedicine."+pageid;
-        const filepath = __dirname+"/../content/blog/external/"+id+".md";
+        //const pageid = item.link.split("?p=")[1]; //link: 'http://federaltelemedicine.com/?p=9544',
+        //const id = key+"."+pageid;
+        const id = cyrb53(item.guid);
+        console.log(item.guid, id);
+        const filepath = __dirname+"/../content/blog/external/"+key+"/"+id+".md";
 
         //if(fs.existsSync(filepath)) return; //don't overwrite if it already exists
 
@@ -39,10 +55,10 @@ const parser = new Parser();
         }
 
         //replace trailing "[&#8230;]" with ...
-        item.content = item.content.replace("[&#8230;]", "...");
+        item.content = item.contentSnippet.replace("[&#8230;]", "...");
 
         const content = `---
-source: "federaltelemedicine.com"
+source: "${key}"
 title: "${item.title}"
 description: "todo.."
 lead: "${item.content}"
@@ -53,13 +69,19 @@ extlink: "${item.link}"
 extcategories: [${item.categories.map(cat=>'"'+cat+'"')}]
 contributors: ["${item.creator}"]
 toc: false
-menu:
-  blog:
-    parent: "external"
+#menu:
+#  blog:
+#    parent: "external"
 ---
 `;
         console.log("writing", id);
         console.log(content);
         fs.writeFileSync(filepath, content, {encoding: "ascii"});
     });
-})();
+}
+
+loadFeed("https://tools.cdc.gov/api/v2/resources/media/404952.rss", "cdc");
+loadFeed("http://federaltelemedicine.com/?feed=rss2", "federaltelemedicine");
+loadFeed("https://www.phe.gov/ASPRBlog/_layouts/15/listfeed.aspx?List=f59454e5-a08d-4a13-9abe-0d31ef99f1af", "phe-aspr");
+
+
