@@ -24,13 +24,13 @@
   weight = 300
 
 [[blog]]
-  name = "Best Practices"
-  identifier = "bp"
+  name = "Insights"
+  identifier = "insights"
   weight = 100
 
 [[blog]]
-  name = "Insights"
-  identifier = "insights"
+  name = "Best Practices"
+  identifier = "bp"
   weight = 200
 
 [[blog]]
@@ -41,12 +41,12 @@
 [[blog]]
   name = "Articles"
   identifier = "articles"
-  weight = 350
+  weight = 400
 
 [[blog]]
   name = "External Blogs"
   identifier = "external"
-  weight = 400
+  weight = 500
 
 [[social]]
   name = "Twitter"

@@ -10,7 +10,7 @@ contributors:
 menu:
   blog:
     parent: "articles"
-weight: 220
+weight: 420
 toc: true
 ---
 

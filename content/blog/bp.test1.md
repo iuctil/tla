@@ -1,15 +1,16 @@
 ---
 title: "test blog 1"
 description: "todo.."
-lead: "todo.. lead"
-date: 2021-07-05T09:07:53.000Z
-lastmod: 2021-07-05T09:07:53.000Z
+lead: "this is a test"
+date: 2021-08-12T09:18:00.000Z
+lastmod: 2021-08-13T07:00:00.000Z
 draft: false
-contributors: ["Carolyn Bloch"]
-toc: true
+contributors: [""]
 menu:
   blog:
     parent: "bp"
+weight: 210
+toc: true
 ---
 
 Here is my content
