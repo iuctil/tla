@@ -1,0 +1,47 @@
+[
+    {
+        "id": "Coustasse 2014",
+        "type": "article-journal",
+        "title": "A Business Case for Tele-Intensive Care Units",
+        "DOI": "10.7812/TPP/14-004",
+        "container-title": "The Permanente Journal",
+        "volume": "18",
+        "issue": "4",
+        "page": "76-84",
+        "issued": {
+          "date-parts": [[ 2014 ]]
+        },
+        "author": [
+          {
+            "given": "Alberto", "family": "Coustasse"
+          },
+          {
+            "given": "Stacie", "family": "Deslich"
+          },
+          {
+            "given": "Deanna", "family": "Bailey"
+          },
+          {
+            "given": "Alesia", "family": "Hairston"
+          },
+          {
+            "given": "David", "family": "Paul"
+          }
+        ]
+    },
+    {
+        "id": "Test 2002",
+        "title": "Some paper",
+        "issued": {
+          "date-parts": [[ 2002, 3, 15 ], [2002, 3, 17]]
+        },
+        "author": [
+            {
+                "given": "Lawrence", "family": "Lessig"
+            },
+            {
+                "given": "Soichi", "family": "Hayashi"
+            }
+        ]
+    }
+]

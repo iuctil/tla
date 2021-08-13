@@ -15,7 +15,7 @@ toc: true
 ---
 
 ## Background
-The cororavirus disease 19 (COVID-19) pandemic has strained intensive care unit (ICU) material and human resources to global crisis levels. The risks of staffing challenges and clinician exposure are of significant concern. One resource, telecritical care (TCC), has the potential to optimize efficiency, maximize safety, and improve quality of care provided amid large-scale disruptions, but its role in pandemic situations is only loosely defined.
+The coronavirus disease 19 (COVID-19) pandemic has strained intensive care unit (ICU) material and human resources to global crisis levels. The risks of staffing challenges and clinician exposure are of significant concern. One resource, telecritical care (TCC), has the potential to optimize efficiency, maximize safety, and improve quality of care provided amid large-scale disruptions, but its role in pandemic situations is only loosely defined.
 
 ## Planning and Preparation Phase
 Researchers propose strategic initiatives by which TCC may act as a force multiplier for pandemic preparedness in response to COVID-19, utilizing a tiered approach for increasing surge capacity needs. The goals involved usage of TCC to augment ICU capacity, optimize safety, minimize personal protective equipment (PPE) use, improve efficiencies, and enhance knowledge of managing pandemic response.

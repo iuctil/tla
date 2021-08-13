@@ -1,7 +1,7 @@
 ---
-title: "Accelerating Technology Innovation for Disaster Environment"
+title: "Accelerating Technology Innovation"
 description: "Blogpost #1 by Dr. David Wild"
-lead: ""
+lead: "Accelerating Technology Innovation for Disaster Environment"
 date: 2021-08-12T09:18:00.000Z
 lastmod: 2021-08-13T07:00:00.000Z
 draft: false
@@ -12,6 +12,8 @@ menu:
 weight: 110
 toc: true
 ---
+
+## Section Title #1
 
 For the last three months, I have been leading a project in partnership with the US Army Telemedicine and Advanced Technology Research Center [National Emergency Tele-Critical Care Network](https://www.tatrc.org/netccn/) (NETCCN) to create the *Technology in Disaster Environments Learning Accelerator* (TLA). NETCCN is a visionary project designed to bring high quality emergency critical care support to patients in disaster situations where local systems are overloaded, using an ecosystem of applications that run on mobile devices. These applications perform functions such as remote registration and monitoring of patients, enable remote healthcare providers to provide support to overloaded areas, and are being deployed to address critical gaps during the COVID19 pandemic. The TLA serves as a hub for research, learning, and insight for the use of technology in disasters, with NETCCN as its initial area of focus.
 

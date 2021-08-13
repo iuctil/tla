@@ -14,3 +14,8 @@ toc: true
 ---
 
 some content...
+
+![something](/images/logo_with_title.png)
+
+example pdf link (broken)
+[pdf](/pdf/pdf.pdf)

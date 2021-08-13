@@ -14,7 +14,7 @@ titleHome = "TiDE Learning Accelerator"
 
 ## Twitter Cards
 twitterSite = "@iuctil"
-twitterCreator = "@soichih"
+twitterCreator = "@iuctil"
 
 ## JSON-LD
 schemaType = "Organization"
@@ -71,5 +71,4 @@ editPage = true
   highLight = true
   kaTex = false
   collapsibleSidebar = false
-
 
