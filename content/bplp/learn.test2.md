@@ -19,3 +19,5 @@ some content...
 
 example pdf link (broken)
 [pdf](/pdf/pdf.pdf)
+
+{{< audio src="/audio/sample.mp3" >}}
