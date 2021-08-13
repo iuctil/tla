@@ -10,8 +10,9 @@
 
 [[main]]
   name = "BPLP"
-  url = "/blog"
+  url = "/bplp"
   weight = 30
+
 
 [[docs]]
   name = "Home"
@@ -23,30 +24,33 @@
   identifier = "others"
   weight = 300
 
-[[blog]]
+
+
+[[bplp]]
   name = "Insights"
   identifier = "insights"
   weight = 100
 
-[[blog]]
+[[bplp]]
   name = "Best Practices"
   identifier = "bp"
   weight = 200
 
-[[blog]]
+[[bplp]]
   name = "Learning Materials"
   identifier = "learning"
   weight = 300
 
-[[blog]]
+[[bplp]]
   name = "Articles"
   identifier = "articles"
   weight = 400
 
-[[blog]]
+[[bplp]]
   name = "External Blogs"
   identifier = "external"
   weight = 500
+
 
 [[social]]
   name = "Twitter"

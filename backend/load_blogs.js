@@ -42,7 +42,7 @@ async function loadFeed(rssUrl, key) {
         //const id = key+"."+pageid;
         const id = cyrb53(item.guid);
         console.log(item.guid, id);
-        const filepath = __dirname+"/../content/blog/external/"+key+"/"+id+".md";
+        const filepath = __dirname+"/../content/bplp/external/"+key+"/"+id+".md";
 
         //if(fs.existsSync(filepath)) return; //don't overwrite if it already exists
 
