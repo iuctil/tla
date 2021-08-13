@@ -1,11 +1,11 @@
 ---
-title: "test blog 4 ... ?"
+title: "learning blog 1"
 description: "todo.."
-lead: "todo.. lead"
+lead: "this is a test"
 date: 2021-07-05T09:07:53.000Z
 lastmod: 2021-07-05T09:07:53.000Z
 draft: false
-contributors: ["Tim Berners-Lee"]
+contributors: ["author"]
 menu:
   blog:
     parent: "learning"
@@ -13,10 +13,4 @@ weight: 310
 toc: true
 ---
 
-## heading 1
-
-Here is a sample page for a blog.
-
-## heading 2
-
-Another sentence
+some content...
