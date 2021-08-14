@@ -5,7 +5,7 @@ lead: "TCC Hospitals"
 date: 2021-08-06T14:00:00.000Z
 lastmod: 2021-08-06T14:00:00.000Z
 draft: false
-contributors: ["Carol Rogers"]
+contributors: ["Carol O. Rogers"]
 menu:
   bplp:
     parent: "insights"

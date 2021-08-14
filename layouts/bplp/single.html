@@ -24,14 +24,20 @@
         </ol>
       </nav>
     {{ end }}
+
     <h1>{{ .Title }}</h1>
+
+    <p class="lead"><b><big>{{ .Params.lead | safeHTML }}</big></b></p>
+   
     {{ partial "main/blog-meta.html" . }}
-    <p class="lead">{{ .Params.lead | safeHTML }}</p>
-    {{ partial "main/headline-hash.html" .Content }}
+    
     {{if (isset .Params "extlink") }}
       <br>
-      Read a full article at <a href="{{ .Params.extlink }}">{{ .Params.extlink }}</a>
+      Read the full article at <a href="{{ .Params.extlink }}">{{ .Params.extlink }}</a>
     {{end}}
+
+    {{ partial "main/headline-hash.html" .Content }}
+
     {{ if .Site.Params.editPage -}}
       {{ partial "main/edit-page.html" . }}
     {{ end -}}
