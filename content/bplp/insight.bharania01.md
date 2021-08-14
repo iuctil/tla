@@ -1,7 +1,7 @@
 ---
-title: "Tech Innovation for COVID-19"
+title: "Maximize Impact, But Do No Harm"
 description: "Blogpost #1 by Rakesh Bharania"
-lead: "Maximize Impact, But Do No Harm: Ethical Technology Innovation for COVID-19"
+lead: "Ethical Technology Innovation for COVID-19"
 date: 2020-04-15T12:00:00.000Z
 lastmod: 2020-04-15T12:00:00.000Z
 draft: false
@@ -13,21 +13,24 @@ menu:
     parent: "insights"
 weight: 130
 toc: true
+#extlink: https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/
 ---
 
-# Maximize Impact, But Do No Harm: Ethical Technology Innovation for COVID-19
+*This article was originally posted at [https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/](https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/)*
 
-### *“History is full of massive harm done by people with great power who are utterly convinced that because they believe themselves to have good intentions, they cannot do harm or cause grave harm.” -Zeynep Tufecki*
+<br>
+
+***“History is full of massive harm done by people with great power who are utterly convinced that because they believe themselves to have good intentions, they cannot do harm or cause grave harm.” -- Zeynep Tufecki***
 
 The 2020 COVID19 pandemic has created an urgent global health emergency. It is natural that when an emergency of this kind occurs, that technologists and innovators across healthcare, humanitarian and public safety organizations and their private sector partners will ask themselves the question, “How can we help?” In some cases, the organizations have a mandate or duty to respond to the crisis. In other cases, it can be simple empathy and the desire to alleviate suffering that move individuals and organizations to action.
 
-## Dear Technologists: Move Fast, But Do No Harm
+### Dear Technologists: Move Fast, But Do No Harm
 
 While the urge to help is natural and should be celebrated, all technology efforts related to the COVID19 response must abide by two fundamental principles: focus on the most critical problems and “do no harm” (i.e., the precautionary principle). As a community of innovators, we must collectively guard against spending limited resources (time, expertise, funds) on efforts that are poorly scoped, or lack an evidence-basis that they will contribute in some meaningful way to the response. In the rush to “do something,” we can find ourselves rushing to “solutionizing,” a form of magical thinking that suggests that just by deploying technology, we can have a meaningful impact on the problem without really considering the underlying non-technical realities. Any effort not grounded in a full and complete appreciation for the problem and its complexity risks the creation or positioning of technology solutions that ***lack the potential for impact and are not fit for purpose***, or worse, could ***cause downstream harm to individuals and communities***. Ensuring a focused technical response that minimizes negative impacts and harms must be a core ethical pillar for any technology solution intended for acute crisis response.
 
 For mission-driven organizations and private sector innovators, we believe that a quick assessment of potential technology projects related to the COVID19 response is necessary to ensure that limited resources are not wasted on low-impact efforts, and that those efforts are structured to minimize the risk of harm of unintended consequences. There is an obvious sense of great urgency in meeting the immediate needs of a pandemic that is escalating at an exponential rate to avoid human suffering. However, that urgency must be tempered with the understanding that any crisis or emergency can create pressure on technologists to ignore principles of good design, of security and privacy just at the very moment where those things are needed the most.
 
-## First: Choose an Important Problem to Solve
+### First: Choose an Important Problem to Solve
 
 When a crisis hits, many of us feel the need to do something, anything! While the impulse comes from a good and empathetic place, doing "anything" is not valuable. From the perspective of human health and societal safety, some problems are more urgent and important than others. When an organization has a number of potential efforts it could take action on, it is important to determine the prioritization of those efforts. Triage comes from the world of emergency medicine, and it is used to sort patients according to need when resources are limited. In our context, innovators may have multiple ideas on how to help, but they will need to sort which efforts deserve the most attention and resources.
 
@@ -41,7 +44,7 @@ We suggest answering the following questions in the remainder of this article in
 
 3. ***Do you have the necessary capacities and competencies?*** Look at your organization’s core competencies and capacities critically. Given the well-scoped problem from the earlier question, assess whether you have the right expertise, buy-in and resources to actually execute on this effort. What else do you need?
 
-## Next: Maximize Impact, Minimize Harm in Your #COVID19 Technology Innovation Efforts
+### Next: Maximize Impact, Minimize Harm in Your #COVID19 Technology Innovation Efforts
 
 Now that you’ve evaluated your possible projects in terms of priority, scope and capacities, the next step is to determine how to move forward in a way that maximizes the benefit of the effort, and minimizes harms or unintended negative consequences. 
 
@@ -55,7 +58,7 @@ Now that you’ve evaluated your possible projects in terms of priority, scope a
 
 Because of the urgent nature of the COVID19 pandemic, it may not be possible for technologists to follow traditional development models to identify risks and mitigate them. In order to minimize the delay to effective, impactful technology action for the COVID19 pandemic and yet still control for the urge to “solutionize” and the need to minimize harm, we propose these questions to our community of innovators and Trailblazers. This should help to facilitate a conversation around rapid assessment of any proposed technology effort related to the COVID19 crisis, or for any other urgent humanitarian crisis for that matter.  
 
-### About the Authors:
+### About the Authors
 
 ***Rakesh Bharania** is Director of Humanitarian Impact Data at Salesforce.org. He has spent more than 25 years in the humanitarian sector, focusing on the intersection of emerging technologies and international humanitarian crisis response and development. Rakesh has also engaged across the board with policy-makers, senior government officials, academia, first responders, NGOs/IGOs, volunteer organizations and industry leaders.*
 

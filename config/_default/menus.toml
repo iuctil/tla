@@ -13,7 +13,6 @@
   url = "/bplp"
   weight = 30
 
-
 [[docs]]
   name = "Home"
   identifier = "home"
@@ -23,8 +22,6 @@
   name = "Others"
   identifier = "others"
   weight = 300
-
-
 
 [[bplp]]
   name = "Insights"
@@ -50,7 +47,6 @@
   name = "External Blogs"
   identifier = "external"
   weight = 500
-
 
 [[social]]
   name = "Twitter"

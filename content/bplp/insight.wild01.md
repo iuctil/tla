@@ -1,7 +1,7 @@
 ---
 title: "Accelerating Technology Innovation"
 description: "Blogpost #1 by Dr. David Wild"
-lead: "Accelerating Technology Innovation for Disaster Environment"
+lead: "Accelerating Technology Innovation for Disaster Environments"
 date: 2021-08-12T09:18:00.000Z
 lastmod: 2021-08-13T07:00:00.000Z
 draft: false
@@ -13,9 +13,10 @@ weight: 110
 toc: true
 ---
 
-## Section Title #1
-
+<br>
 For the last three months, I have been leading a project in partnership with the US Army Telemedicine and Advanced Technology Research Center [National Emergency Tele-Critical Care Network](https://www.tatrc.org/netccn/) (NETCCN) to create the *Technology in Disaster Environments Learning Accelerator* (TLA). NETCCN is a visionary project designed to bring high quality emergency critical care support to patients in disaster situations where local systems are overloaded, using an ecosystem of applications that run on mobile devices. These applications perform functions such as remote registration and monitoring of patients, enable remote healthcare providers to provide support to overloaded areas, and are being deployed to address critical gaps during the COVID19 pandemic. The TLA serves as a hub for research, learning, and insight for the use of technology in disasters, with NETCCN as its initial area of focus.
+
+### The Dilemma of Disaster Technologies
 
 There is a fundamental tension in the use of technologies in disasters, which I shall call the *dilemma of disaster technologies*. On the one hand, for technology to be adopted and have an impact, its use must be carefully thought out, proven, and tested. Users of disaster technologies are likely to be overloaded, overwhelmed and working outside their comfort zone. High stress environments are known to reduce our cognitive capacities. Introducing an additional cognitive burden by providing immature technologies to first responders is difficult to justify. Additionally tolerance for technology failure must be low when lives are at stake: immature technologies frequently fail, behave in unanticipated ways, or introduce new vulnerabilities that are not properly understood. In high stress situations the adoption cost for new technologies is thus high. One might say we should be very cautious, deliberate and stepwise about introducing new technologies into emergency response and disaster environments, and only use well-proven capabilities. This perspective has traditionally dominated in emergency response and management, which likely accounts for crisis technologies being notoriously outdated and difficult to replace.
 
@@ -23,9 +24,13 @@ On the other hand, disasters don't wait for our technologies to mature. Even if 
 
 The dilemma of disaster technologies is at the heart of our NETCCN response to the COVID19 pandemic. Despite excellent prior planning in recent decades for the "pandemic everyone knew was coming", COVID19 has brought needs and complexities that were not anticipated. Supply chain shortages for medical equipment and PPE and social media fuelled disinformation, as well as those that were anticipated, such as overload of medical facilities, are glaringly evident. NETCCN is at the leading edge of the use of technologies to load balance patient care across geographical and jurisdictional boundaries. While the technology is not yet mature, perhaps more importantly the policy, incentive and legal framework in the United States is not designed for this kind of technological capability. As one example most health care providers are only licensed to practice in the state in which they reside.
 
+### Responding to Delta With Continuous Improvement
+
 Currently, we appear to be in a fourth wave of the pandemic, with rapidly increasing hospitalizations among the unvaccinated and concerningly children. In several states available ICU beds are scarce or non-existent, and there is an urgent need to efficiently load-balance patient care. This process could include transfer of patients to available beds which might be in another state, or enabling available healthcare professionals to manage patients in distant locations where there may be a bed but not the correct staff to manage them. How can we apply to this problem the best available technological capabilities *now* in as robust a way as possible, while ensuring that we can do this *better* in the future?
 
-This question is at the heart of the TLA mission as the hub for research, learning, and insight for the use of technology in disasters. In the last few months we have carried out many interviews, discussions and engagements with a wide range of stakeholders in NETCCN the wider sphere of disaster and humanitarian response. We are adding their insights to an analysis of documented findings from a previous phase of NETCCN. We identify five areas that need to be addressed:
+This question is at the heart of the TLA mission as the hub for research, learning, and insight for the use of technology in disasters. In the last few months we have carried out many interviews, discussions and engagements with a wide range of stakeholders in NETCCN the wider sphere of disaster and humanitarian response. We are adding their insights to an analysis of documented findings from a previous phase of NETCCN. 
+
+### Five Areas To Be Addressed
 
 1. ***Coordination and real-time performance***. A robust process is needed to monitor and evaluate in real-time the progression of a disaster and the successes, failures,  met or missed opportunities, barriers, insights and learnings. In the TLA we are addressing this using a [Total Performance System](https://ctil.iu.edu/tla/tps/intro/) (TPS) that is being developed in partnership with [Organizational Performance Systems](https://www.ops1.com) (OPS). The TPS is designed to allow near real-time aggregation and analytics of performance data for NETCCN in COVID19 as well as future disasters. By collating mission goals, progress, lessons learned, pertinent research questions, ideas for improvement, we can improve situational awareness of the use of technology in disasters as it plays out, enabling real-time course correction and improvement, as well as providing a valuable research corpus for determining best practices and insights for future disasters.
 
