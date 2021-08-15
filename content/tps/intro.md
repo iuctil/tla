@@ -1,7 +1,7 @@
 ---
 title: "Total Performance System (TPS)"
 description: "Total Performance System (TPS) Introduction and Description"
-lead: "The online Total Performance System (TPS) provides disaster medicine performance measures using a proven approach already being used successfully in military contexts."
+lead: "The Total Performance System (TPS) provides a space for NETCCN team members and stakeholders to review key metrics and manage projects, ideas, and lessons learned to advance disaster medicine using an approach proven in other military and homeland security contexts."
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
