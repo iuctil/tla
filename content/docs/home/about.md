@@ -11,8 +11,10 @@ weight: 100
 toc: false
 ---
 
+&nbsp;  
 ![logo](/images/logo_with_title.png)
 
+&nbsp;  
 Crisis is, unfortunately, the new normal for the world. The climate emergency is producing more severe hurricane and wildfire seasons, as well as increasing temperature extremes, flooding, and drought. The COVID-19 pandemic is stretching our resources to the maximum. Our societal dependence on technology is itself creating emergencies and disasters and injecting new vulnerabilities into our way of living.
 
 Technology also offers the opportunity to help, or maybe transform the way we think about disasters. Specifically, we believe technologies can make our preparation for, mitigation of, response to, and recovery from crisis and disaster more *efficient*, *effective*, *equitable*, and *resilient*. For example, large amounts of data could be aggregated to improve situational awareness and target recovery resources more efficiently and effectively; data tools could create a common language from preparation to recovery; and off-grid communications technologies could make response more resilient in infrastructure-degraded environments.
@@ -23,4 +25,5 @@ The TLA is being built in partnership with the [Telemedicine and Advanced Techno
 
 We are asking questions such as: "How do we know when technology is being used successfully to improve care and when is it not reaching its full potential?" and "What are the key areas of research in how technology is applied?" Through iteratively improved efficiency and effectiveness of patient care in specific environments, disaster situations, and locales, we hope it will be possible to accelerate the transition to a disaster and battlefield medicine environment driven by man-machine teaming using interpretable analytics, artificial intelligence, and machine learning employing reliable measures based on extensive data gathered in the field by performers, related institutions, government, and other agencies. Or in brief, to go “from data to knowledge to performance.”
 
-Please join us, and share your best practices, questions, and insights.
+&nbsp;  
+***Please join us, and [share your best practices, questions, and insights](/docs/contact/).***

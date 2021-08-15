@@ -12,3 +12,5 @@ menu:
 ---
 
 *Blog posts from [https://thedigitalresponder.wordpress.com/](https://thedigitalresponder.wordpress.com/)*
+
+&nbsp;  
