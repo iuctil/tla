@@ -12,3 +12,5 @@ menu:
 ---
 
 *Blog posts from [http://federaltelemedicine.com/](http://federaltelemedicine.com/)*
+
+&nbsp;  

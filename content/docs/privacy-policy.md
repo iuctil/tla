@@ -13,16 +13,18 @@ weight: 300
 
 __TLDR__: We do not use cookies and we do not collect any personal data.
 
-## Website visitors
+&nbsp;  
+
+## Website Visitors
 
 - No personal information is collected.
 - No information is stored in the browser.
-- No information is shared with, sent to or sold to third-parties.
+- No information is shared with, sent to, or sold to third-parties.
 - No information is shared with advertising companies.
 - No information is mined and harvested for personal and behavioral trends.
 - No information is monetized.
 
-### Information we collect and what we use it for
+### Information We Collect and What We Use It For
 
 The following information is collected by our web server.
 
@@ -33,8 +35,12 @@ The following information is collected by our web server.
 - __Device type__. We use this to understand what devices people use when visiting this website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. For example: _Desktop_.
 - __Visitor Country__. We look up the visitor’s country using the IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. For example: _Canada_.
 
-## Contact us
+## Contact Us
 
-[Contact us]({{< relref "contact/index.md" >}}) if you have any questions.
+Please [contact us]({{< relref "contact/index.md" >}}) if you have any questions.
 
-Effective Date: _10th August 2021_
+&nbsp;  
+
+&nbsp;  
+
+***Effective Date: 10th August 2021***
