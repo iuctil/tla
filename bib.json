@@ -1,5 +1,173 @@
 [
     {
+        "id": "Singh 2021",
+        "type": "article-journal",
+        "title": "Telecritical Care Clinical and Operational Strategies in Response to COVID-19",
+        "DOI": "https://doi.org/10.1089/tmj.2020.0186",
+        "container-title": "Telemedicine and e-Health",
+        "volume": "27",
+        "issue": "3",
+        "page": "261-268",
+        "issued": {
+          "date-parts": [[ 2021, 3, 5 ]]
+        },
+        "author": [
+          {
+            "given": "Jaspal", "family": "Singh"
+          },
+          {
+            "given": "Michael B.", "family": "Green"
+          },
+          {
+            "given": "Scott", "family": "Lindblom"
+          },
+          {
+            "given": "Michael S.", "family": "Reif"
+          },
+          {
+            "given": "Nehal P.", "family": "Thakkar"
+          },
+          {
+            "given": "Alfred", "family": "Papali"
+          }
+        ]
+    },
+    {
+        "id": "Williams 2020",
+        "type": "article-journal",
+        "title": "Tele-ICUs for Covid-19: A Look at National Prevalence and Characteristics of Hospitals Providing Teleintensive Care",
+        "DOI": "doi.org/10.1111/jrh.12524",
+        "container-title": "The Journal of Rural Health",
+        "volume": "37",
+        "issue": "1",
+        "page": "133-141",
+        "issued": {
+          "date-parts": [[ 2020, 10, 8 ]]
+        },
+        "author": [
+          {
+            "given": "Dunc", "family": "Williams", "suffix": "Jr., PhD"
+          },
+          {
+            "given": "John", "family": "Lawrence", "suffix": "MS"
+          },
+          {
+            "given": "Young-Rock", "family": "Hong", "suffix": "PhD"
+          },
+          {
+            "given": "Aaron", "family": "Winn", "suffix": "PhD"
+          }
+        ]
+    },
+    {
+        "id": "Branson 2020",
+        "type": "article-journal",
+        "title": "The US Strategic National Stockpile Ventilators in Coronavirus Disease 2019",
+        "DOI": "https://doi.org/10.1016/j.chest.2020.09.085",
+        "container-title": "CHEST Journal",
+        "volume": "159",
+        "issue": "2",
+        "page": "634-652",
+        "issued": {
+          "date-parts": [[ 2020, 9, 20 ]]
+        },
+        "author": [
+          {
+            "given": "Rich", "family": "Branson", "suffix": "MSc"
+          },
+          {
+            "given": "Jeffrey R.", "family": "Dichter", "suffix": "MD"
+          },
+          {
+            "given": "Henry", "family": "Feldman", "suffix": "MD"
+          },
+          {
+            "given": "Asha", "family": "Devereaux", "suffix": "MD, MPH"
+          },
+          {
+            "given": "David", "family": "Dries", "suffix": "MD, MSE"
+          },
+          {
+            "given": "Joshua", "family": "Benditt", "suffix": "MD"
+          },
+          {
+            "given": "Tanzib", "family": "Hossain", "suffix": "MD"
+          },
+          {
+            "given": "Marya", "family": "Ghazipura", "suffix": "PhDc"
+          },
+          {
+            "given": "Mary", "family": "King", "suffix": "MD, MPH"
+          },
+          {
+            "given": "Marie", "family": "Baldisseri", "suffix": "MD, MPH"
+          },
+          {
+            "given": "Michael D.", "family": "Christian", "suffix": "MD"
+          },
+          {
+            "given": "Guillermo", "family": "Domingiuez-Cherit", "suffix": "MD"
+          },
+          {
+            "given": "Kiersten", "family": "Henry", "suffix": "DNP"
+          },
+          {
+            "given": "Anne Marie O.", "family": "Martland", "suffix": "MSN"
+          },
+          {
+            "given": "Meredith", "family": "Huffines", "suffix": "MS, BA, RN"
+          },
+          {
+            "given": "Doug", "family": "Ornoff", "suffix": "MD, PhD"
+          },
+          {
+            "given": "Jason", "family": "Persoff", "suffix": "MD"
+          },
+          {
+            "given": "Dario", "family": "Rodriquez", "suffix": "Jr., MSc"
+          },
+          {
+            "given": "Ryan C.", "family": "Maves", "suffix": "MD"
+          },
+          {
+            "given": "Niranjan (Tex)", "family": "Kissoon", "suffix": "MB"
+          },
+          {
+            "given": "Lewis", "family": "Rubinson", "suffix": "MD, PhD"
+          }
+        ]
+    },
+    {
+        "id": "Yoo 2018",
+        "type": "article-journal",
+        "title": "Selected Use of Telemedicine in Intensive Care Units Based on Severity of Illness Improves Cost-Effectiveness",
+        "DOI": "doi.org/10.1089/tmj.2017.0069",
+        "container-title": "Telemedicine and e-Health",
+        "volume": "24",
+        "issue": "1",
+        "page": "21-36",
+        "issued": {
+          "date-parts": [[ 2018, 1, 1 ]]
+        },
+        "author": [
+          {
+            "given": "Byung-Kwang", "family": "Yoo"
+          },
+          {
+            "given": "Minchul", "family": "Kim"
+          },
+          {
+            "given": "Tomoko", "family": "Sasaki"
+          },
+          {
+            "given": "Jeffrey S.", "family": "Hoch"
+          },
+          {
+            "given": "James P.", "family": "Marcin"
+          }
+        ]
+    },
+    {
         "id": "Coustasse 2014",
         "type": "article-journal",
         "title": "A Business Case for Tele-Intensive Care Units",
@@ -13,35 +181,43 @@
         },
         "author": [
           {
-            "given": "Alberto", "family": "Coustasse"
+            "given": "Alberto", "family": "Coustasse", "suffix": "DrPH, MD, MBA, MPH"
           },
           {
-            "given": "Stacie", "family": "Deslich"
+            "given": "Stacie", "family": "Deslich", "suffix": "MA, MS"
           },
           {
-            "given": "Deanna", "family": "Bailey"
+            "given": "Deanna", "family": "Bailey", "suffix": "MS"
           },
           {
-            "given": "Alesia", "family": "Hairston"
+            "given": "Alesia", "family": "Hairston", "suffix": "MS"
           },
           {
-            "given": "David", "family": "Paul"
+            "given": "David", "family": "Paul", "suffix": "DDS, PhDD"
           }
         ]
     },
     {
-        "id": "Test 2002",
-        "title": "Some paper",
+        "id": "Kumar 2013",
+        "type": "article-journal",
+        "title": "Tele-ICU: Efficacy and Cost-Effectiveness Approach of Remotely Managing the Critical Care",
+        "DOI": "doi.org/10.2174/1874431101307010024",
+        "container-title": "The Open Medical Informatics Journal",
+        "volume": "7",
+        "page": "24-29",
         "issued": {
-          "date-parts": [[ 2002, 3, 15 ], [2002, 3, 17]]
+          "date-parts": [[ 2013, 8, 23 ]]
         },
         "author": [
-            {
-                "given": "Lawrence", "family": "Lessig"
-            },
-            {
-                "given": "Soichi", "family": "Hayashi"
-            }
+          {
+            "given": "Sajeesh", "family": "Kumar"
+          },
+          {
+            "given": "Shezana", "family": "Merchant"
+          },
+          {
+            "given": "Rebecca", "family": "Reynolds"
+          }
         ]
     }
 ]
