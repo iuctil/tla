@@ -38,7 +38,7 @@ toc: true
 - [Military-Civilian NDMS Interoperability Study (MCNIS)](https://ncdmph.usuhs.edu/mcnis-study)
 - TiDE Learning Accelerator (TLA)
 
-### Support Organizations & Programs
+### Participating Organizations & Programs
 - [Cognitive Medical Systems](https://www.cognitivemedicalsystems.com/)
 - [Data2Discovery (D2D)](https://www.d2discovery.com/)
 - [DisasterTech](https://www.disastertech.com/)
