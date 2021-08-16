@@ -9,13 +9,14 @@ contributors: ["Dr. David Wild"]
 menu:
   bplp:
     parent: "insights"
-weight: 140
+weight: 150
 toc: true
 ---
  
 *This article was originally posted at [https://david-wild-knzl.squarespace.com/david-wilds-blog/2019/11/20/the-critical-question-for-data-science-to-answer-in-the-next-10-years](https://david-wild-knzl.squarespace.com/david-wilds-blog/2019/11/20/the-critical-question-for-data-science-to-answer-in-the-next-10-years)*
 
 &nbsp;  
+
 As a professor in one of the leading integrated technology and computing schools in the country, my job demands that I spend much of my time thinking about how things are going to be in the coming decades, and how to help us get there through research and educating the leaders of tomorrow.
 
 Ten years ago, it was clear that we were on the brink of a revolution - the data revolution - fueled by huge increases in data production and unprecedented leaps forward in our ability to use that data to think about old problems in new ways through artificial intelligence (AI) and machine learning. Existing industries would be disrupted and upended by new data-driven paradigms, with all companies becoming at heart data companies. Completely new businesses and opportunities would arise that would be impossible without these new drivers and capabilities. Our response at Indiana University included creating one of the most intellectually diverse and innovative Data Science programs, which now has more than 600 online and residential graduate students with a brand new undergraduate program starting up. My own research lab, with its roots in data-driven healthcare, became the Integrative Data Science Lab, because to use all this data in new ways would require an understanding of how to integrate it all together with new kinds of algorithms to get insights from data across disciplines and domains. 

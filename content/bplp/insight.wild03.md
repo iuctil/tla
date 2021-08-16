@@ -9,13 +9,14 @@ contributors: ["Dr. David Wild"]
 menu:
   bplp:
     parent: "insights"
-weight: 150
+weight: 160
 toc: true
 ---
  
 *This article was originally posted at [https://theconversation.com/data-science-could-help-californians-battle-future-wildfires-126316](https://theconversation.com/data-science-could-help-californians-battle-future-wildfires-126316)*
 
 &nbsp;  
+
 A major wildfire spread through Colorado, and I spent long hours locating shelters, identifying evacuation routes and piecing together satellite imagery.
 
 As the Fourmile Canyon Fire devastated areas to the west of Boulder, ultimately [destroying 169 homes and causing US$217 million in damage](https://wildfiretoday.com/2011/10/14/report-released-on-colorados-fourmile-canyon-fire/), my biggest concerns were ensuring that people could safely evacuate and first responders had the best chance of keeping the fire at bay.
