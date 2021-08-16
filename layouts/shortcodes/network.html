@@ -2,11 +2,14 @@
   {{ .Inner }}
 </div>
 
+
+<!--
 <div style="background-color: #ddd">
   <h3>For Developers</h3>
   <button onclick="serializeDiagram()">Serialize Diagram (to console)</button>
 
 </div>
+-->
 
 
 <script src="https://unpkg.com/gojs/release/go-debug.js"></script>
@@ -98,55 +101,63 @@ diagram.model = new go.GraphLinksModel(
 [ // a JavaScript Array of JavaScript objects, one per node;
   // the "color" property is added specifically for this app
 
-  { key: "Army Futures Command", color: "mediumseagreen", group: 1 },
-  { key: "ASPR", color: "mediumseagreen", group: 1 },
-  { key: "SCCM", color: "mediumseagreen", group: 1 },
-  { key: "TATRC", color: "mediumseagreen", group: 1 },
-  { key: "US Army MRDC", color: "mediumseagreen", group: 1 },
-  // { key: 1, text: "Partners", color: "darkgreen", isGroup: true }
+{"key":"Army Futures Command","color":"mediumseagreen","group":1,"loc":"30 40"},
+{"key":"ASPR","color":"mediumseagreen","group":1,"loc":"90 -40"},
+{"key":"SCCM","color":"mediumseagreen","group":1,"loc":"-30 -40"},
+{"key":"TATRC","color":"mediumseagreen","group":1,"loc":"240 60"},
+{"key":"US Army MRDC","color":"mediumseagreen","group":1,"loc":"210 -40"},
+//{ key: "Partners", color: "darkgreen", isGroup: true }
+//{ key: 1, text: "Partners", color: "darkgreen", isGroup: true }
+//{"key":"Test Group","color":"green","isGroup":true,"loc":"240 360","size":"150 120"}
 
-  { key: "Avera", color: "mediumseagreen", group: 2 },
-  { key: "Deloitte", color: "mediumseagreen", group: 2 },
-  { key: "Expression", color: "mediumseagreen", group: 2 },
-  { key: "Geneva", color: "mediumseagreen", group: 2 },
-  // { key: 2, text: "Performers", color: "darkgreen", isGroup: true }
+{"key":"Avera","color":"mediumseagreen","group":2,"loc":"0 160"},
+{"key":"Deloitte","color":"mediumseagreen","group":2,"loc":"-30 100"},
+{"key":"Expression","color":"mediumseagreen","group":2,"loc":"180 180"},
+{"key":"Geneva","color":"mediumseagreen","group":2,"loc":"60 200"},
+// { key: 2, text: "Performers", color: "darkgreen", isGroup: true }
 
-  { key: "ViTel Net", color: "mediumseagreen" },
-  { key: "DocBox", color: "mediumseagreen" },
-  { key: "Omnicure", color: "mediumseagreen" },
-  { key: "MAMC", color: "mediumseagreen" },
-  { key: "MD PnP", color: "mediumseagreen" },
+{"key":"ViTel Net","color":"mediumseagreen","loc":"-30 220"},
+{"key":"DocBox","color":"mediumseagreen","loc":"210 320"},
+{"key":"Omnicure","color":"mediumseagreen","loc":"30 320"},
+{"key":"MAMC","color":"mediumseagreen","loc":"-30 320"},
+{"key":"MD PnP","color":"mediumseagreen","loc":"120 320"},
+// { key: 3, text: "", color: "darkgreen", isGroup: true }
 
-  { key: "TR4OS", color: "palegreen" },
+{"key":"TR4OS","color":"palegreen","loc":"0 380"},
+// { key: 4, text: "", color: "darkgreen", isGroup: true }
 
-  //{ key: "NETCCN", color: "green", width: 100, height: 50,  loc: "20 30"},
-  {"key":"NETCCN","color":"green","width":100,"height":50,"loc":"150 -160"},
-  { key: "TiDE", color: "dodgerblue"},
+{"key":"NETCCN","color":"green","width":100,"height":50,"loc":"90 100"},
+{"key":"TiDE","color":"dodgerblue","width":100,"height":50,"loc":"240 120"},
+// { key: 5, text: "", color: "darkgreen", isGroup: true }
 
-  { key: "C-PAM", color: "cornflowerblue" },
-  { key: "Data Commons", color: "cornflowerblue" },
-  { key: "DIACC", color: "cornflowerblue" },
-  { key: "MDIA", color: "cornflowerblue" },
-  { key: "MCNIS", color: "cornflowerblue" },
-  { key: "TLA", color: "cornflowerblue" },
+{"key":"C-PAM","color":"cornflowerblue","loc":"240 240"},
+{"key":"Data Commons","color":"cornflowerblue","loc":"330 0"},
+{"key":"DIACC","color":"cornflowerblue","loc":"390 140"},
+{"key":"MDIA","color":"cornflowerblue","loc":"360 240"},
+{"key":"MCNIS","color":"cornflowerblue","loc":"450 220"},
+{"key":"TLA","color":"cornflowerblue","loc":"360 80"},
+// { key: 6, text: "", color: "darkgreen", isGroup: true }
 
-  { key: "MGH", color: "paleturquoise" },
-  { key: "JHU/APL", color: "paleturquoise" },
-  { key: "MITRE", color: "paleturquoise" },
-  { key: "Cog Med", color: "paleturquoise" },
-  { key: "OrangeMed", color: "paleturquoise" },
-  { key: "NDMS", color: "paleturquoise" },
-  { key: "USUHS", color: "paleturquoise" },
-  { key: "IU CTIL", color: "paleturquoise" },
+{"key":"MGH","color":"paleturquoise","loc":"300 340"},
+{"key":"JHU/APL","color":"paleturquoise","loc":"480 0"},
+{"key":"MITRE","color":"paleturquoise","loc":"480 160"},
+{"key":"Cog Med","color":"paleturquoise","loc":"450 340"},
+{"key":"OrangeMed","color":"paleturquoise","loc":"360 380"},
+{"key":"NDMS","color":"paleturquoise","loc":"480 280"},
+{"key":"USUHS","color":"paleturquoise","loc":"540 220"},
+{"key":"IU CTIL","color":"paleturquoise","loc":"420 80"},
+// { key: 7, text: "", color: "darkgreen", isGroup: true }
 
-  { key: "D2D", color: "paleturquoise" },
-  { key: "DisasterTech", color: "paleturquoise" },
-  { key: "OPS", color: "paleturquoise" },
+{"key":"D2D","color":"paleturquoise","loc":"510 120"},
+{"key":"DisasterTech","color":"paleturquoise","loc":"510 80"},
+{"key":"OPS","color":"paleturquoise","loc":"540 40"}
+// { key: 8, text: "", color: "darkgreen", isGroup: true }
 
-  {"key":"Gamma","color":"darkgreen","group":"Test Group","loc":"262.34000000000003 372.673"},
-  {"key":"Delta","color":"pink","group":"Test Group","loc":"330 440"},
-  {"key":"Test Group","color":"green","isGroup":true,"loc":"240 360","size":"150 120"}
+  //{"key":"Gamma","color":"darkgreen","group":"Test Group","loc":"262.34000000000003 372.673"},
+  //{"key":"Delta","color":"pink","group":"Test Group","loc":"330 440"},
+  //{"key":"Test Group","color":"green","isGroup":true,"loc":"240 360","size":"150 120"}
 ],
+
 [ // a JavaScript Array of JavaScript objects, one per link
   { from: "NETCCN", to: "TiDE" },
   { from: "NETCCN", to: "Army Futures Command" },
