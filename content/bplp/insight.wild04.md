@@ -9,13 +9,14 @@ contributors: ["Dr. David Wild"]
 menu:
   bplp:
     parent: "insights"
-weight: 160
+weight: 170
 toc: true
 ---
  
 *This article was originally posted at [https://david-wild-knzl.squarespace.com/david-wilds-blog/2019/2/19/an-eoc-in-your-pocket-turning-your-phone-into-a-state-of-the-art-emergency-operations-center](https://david-wild-knzl.squarespace.com/david-wilds-blog/2019/2/19/an-eoc-in-your-pocket-turning-your-phone-into-a-state-of-the-art-emergency-operations-center)*
 
 &nbsp;  
+
 Cellphones historically have a bad rap in Emergency Management. The  dogma is that cellphones can't be relied on in a disaster, therefore  they are not a primary part of the Emergency Manager's toolbox. However,  this misses the point that the vast majority of the time cellphones *do*  work, and cellphone infrastructure resilience is increasing with the  proliferation of cellphone towers, rapid response by cellphone providers  to bring in temporary towers in a disaster, and most recently the  emergence of [FirstNet](https://firstnet.gov/), the robust cellphone network for emergency personnel. The chances are  that most of the time you will be able to get some internet service  either through the cellular network or WiFi. As resilience has grown, so  has usefulness. There are now a plethora of apps and services that mean  that if you do have internet service, you can to an amazing degree  replicate the functions of an Emergency Operations Center (EOC) on the  smartphone in your pocket. In this article we will describe a set of  apps that will enable you to achieve the primary functions of the EOC:  meeting & sharing space, phone and radio communications, situational  awareness, and access to plans, documents and maps.
 
 ### Meeting and Sharing Space

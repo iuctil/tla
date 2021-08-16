@@ -19,6 +19,7 @@ toc: true
 *This article was originally posted at [https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/](https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/)*
 
 &nbsp;  
+
 ***“History is full of massive harm done by people with great power who are utterly convinced that because they believe themselves to have good intentions, they cannot do harm or cause grave harm.” -- Zeynep Tufecki***
 
 The 2020 COVID19 pandemic has created an urgent global health emergency. It is natural that when an emergency of this kind occurs, that technologists and innovators across healthcare, humanitarian and public safety organizations and their private sector partners will ask themselves the question, “How can we help?” In some cases, the organizations have a mandate or duty to respond to the crisis. In other cases, it can be simple empathy and the desire to alleviate suffering that move individuals and organizations to action.

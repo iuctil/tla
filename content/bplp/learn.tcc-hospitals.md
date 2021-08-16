@@ -1,7 +1,7 @@
 ---
 title: "Tele-Critical Care Hospitals Map"
-description: "Tele-Critical Care (TCC) Hospitals Map"
-lead: "Tele-Critical Care (TCC) Hospitals Map"
+description: "U.S. Tele-Critical Care (TCC) Hospitals Map"
+lead: "U.S. Tele-Critical Care (TCC) Hospitals Map"
 date: 2021-08-06T12:00:00.000Z
 lastmod: 2021-08-06T12:00:00.000Z
 draft: false
