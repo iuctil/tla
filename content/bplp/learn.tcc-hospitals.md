@@ -13,12 +13,12 @@ menu:
   bplp:
     parent: "learning"
 weight: 320
-toc: true
+toc: false
 ---
 
-<iframe width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMWE4ZDZjMzAtNDdkNi00NWYwLWFiYTItZTQwNTYzOTJiZjE2IiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
-
 &nbsp;  
+
+<iframe width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMWE4ZDZjMzAtNDdkNi00NWYwLWFiYTItZTQwNTYzOTJiZjE2IiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
 &nbsp;  
 
