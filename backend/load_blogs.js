@@ -80,9 +80,9 @@ toc: false
     });
 }
 
-loadFeed("https://thedigitalresponder.wordpress.com/feed/", "thedigitalresponder");
 loadFeed("https://tools.cdc.gov/api/v2/resources/media/404952.rss", "cdc");
-loadFeed("http://federaltelemedicine.com/?feed=rss2", "federaltelemedicine");
-loadFeed("https://www.phe.gov/ASPRBlog/_layouts/15/listfeed.aspx?List=f59454e5-a08d-4a13-9abe-0d31ef99f1af", "phe-aspr");
+//loadFeed("https://thedigitalresponder.wordpress.com/feed/", "thedigitalresponder");
+//loadFeed("http://federaltelemedicine.com/?feed=rss2", "federaltelemedicine");
+//loadFeed("https://www.phe.gov/ASPRBlog/_layouts/15/listfeed.aspx?List=f59454e5-a08d-4a13-9abe-0d31ef99f1af", "phe-aspr");
 
 

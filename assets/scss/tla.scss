@@ -31,4 +31,57 @@ h5 {
   font-size: 120%;
 }
 
+table.tech-matrix {
+  margin: 0;
+  margin-bottom: 20px;
 
+  font-size: 80%;
+  thead {
+    font-size: 90%;
+  }
+
+  background-color: #eee;
+  border-radius: 10px;
+
+  tbody {
+    td, th {
+      width: 10%;
+      font-size: 80%;
+    }
+    td {
+      background-color: #999;
+    }
+
+    /*
+    td.mat-0 { opacity: 0; }
+    td.mat-10 { opacity: 0.1; }
+    td.mat-20 { opacity: 0.2; }
+    td.mat-30 { opacity: 0.3; }
+    td.mat-40 { opacity: 0.4; }
+    td.mat-50 { opacity: 0.5; }
+    td.mat-60 { opacity: 0.6 }
+    td.mat-70 { opacity: 0.7; }
+    td.mat-80 { opacity: 0.8 }
+    td.mat-90 { opacity: 0.9; }
+    td.mat-100 { opacity: 1.0; }
+    */
+
+    td.mat-0 { background-color: hsl(126, 100%, 100%) }
+    td.mat-10 { background-color: hsl(126, 100%, 95%) }
+    td.mat-20 { background-color: hsl(126, 100%, 90%) }
+    td.mat-30 { background-color: hsl(126, 100%, 85%) }
+    td.mat-40 { background-color: hsl(126, 100%, 80%) }
+    td.mat-50 { background-color: hsl(126, 100%, 75%) }
+    td.mat-60 { background-color: hsl(126, 100%, 70%) }
+    td.mat-70 { background-color: hsl(126, 100%, 65%) }
+    td.mat-80 { background-color: hsl(126, 100%, 60%) }
+    td.mat-90 { background-color: hsl(126, 100%, 55%) }
+    td.mat-100 { background-color: hsl(126, 100%, 50%) }
+  }
+
+  td.legend {
+    width: 90%;
+    //background-image: linear-gradient(to right, hsl(0, 100%, 50%), hsl(62, 100%, 50%), hsl(125, 100%, 50%));
+    background-image: linear-gradient(to right, hsl(0,100%,100%), hsl(125, 100%, 50%));
+  }
+}

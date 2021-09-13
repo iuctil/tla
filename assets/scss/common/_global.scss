@@ -188,9 +188,11 @@ body {
   list-style: none;
 }
 
+/*
 ::selection {
   background: rgba(212, 53, 159, 0.2);
 }
+*/
 
 .bg-dots {
   background-image: radial-gradient($gray-300 15%, transparent 15%);

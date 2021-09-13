@@ -1,5 +1,5 @@
 ---
-title: "Best Practices Articles"
+title: "Best Practices Articles and conferences"
 description: "TBD"
 lead: "coming soon..."
 date: 2021-08-13T14:00:00.000Z
@@ -13,10 +13,19 @@ weight: 210
 toc: true
 ---
 
-&nbsp;  
+# Articles
 
-articles on best practices coming soon...
+{{<cite "Bennett 2019">}}
 
-&nbsp; 
+{{< bibliography cited >}}
 
-&nbsp; 
+# Conferences
+
+* ITU Global Forum [https://www.itu.int/
+* InterDrone [https://interdrone.com/]
+
+
+
+
+
+
