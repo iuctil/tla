@@ -16,12 +16,5 @@ weight: 320
 toc: false
 ---
 
-<iframe width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMWE4ZDZjMzAtNDdkNi00NWYwLWFiYTItZTQwNTYzOTJiZjE2IiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMWE4ZDZjMzAtNDdkNi00NWYwLWFiYTItZTQwNTYzOTJiZjE2IiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
-&nbsp;
-
-&nbsp;
-
-<!--
-<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=1caaed42-6287-4930-b705-d4de036405ad&autoAuth=true&ctid=1113be34-aed1-4d00-ab4b-cdd02510be91&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXVzLW5vcnRoLWNlbnRyYWwtZi1wcmltYXJ5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" allowFullScreen="true"></iframe>
--->
