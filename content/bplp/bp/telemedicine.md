@@ -4,7 +4,7 @@ description: "Telemedicine Best Practices"
 lead: "coming soon..."
 date: 2021-09-13T14:00:00.000Z
 lastmod: 2021-09-13T14:00:00.000Z
-draft: false
+draft: true
 contributors: ["Soichi Hayashi"]
 menu:
   bplp:
