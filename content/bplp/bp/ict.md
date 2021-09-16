@@ -4,7 +4,7 @@ description: "ICT Technologies Best Practices"
 lead: "List of surveillance technologies"
 date: 2021-03-01T12:00:00.000Z
 lastmod: 2021-03-01T12:00:00.000Z
-draft: false
+draft: true
 contributors: ["Soichi Hayashi"]
 menu:
   bplp:
@@ -13,8 +13,10 @@ weight: 140
 toc: true
 ---
 
-Communication!
+{{< alert icon="👉" text="This page is a DRAFT" />}}
 
+
+Communication!
 
 Information and communication technologies (ICTs) cover a wide range of telecommunication devices and applications, which facilitate the flow of information.
 
@@ -25,6 +27,8 @@ During a disaster recovery stage, the following communication technologies are o
 ## Social Media
 
 Social media are playing a greater role during disasters.
+
+During Chennai flooding in India in 2015, although emergency telephone numbers were established, they were overloaded, making social media such as Twitter a popular method for communication for those with Internet access.
 
 > “Social media has revolutionised communication during disasters,” says US’ Federal Emergency Management Agency administrator Craig Fugate.
 
@@ -39,14 +43,16 @@ Social media is also slowly turning out to be a live-saving tool. In theory, it 
 * Twitter has been widely used by the relief community in a number of disasters to coordinate response. Unlike text messages, users can follow
 tweeters; ’cards‘ can be included with links to photos, videos and other media; and hashtags help quickly receive or find tweets on a specific topic
 
+* The Twitter live, real-time public platform was used by nongovernmental organizations (NGOs), the public, government agencies and the media to share
+and exchange information.
+
 * The Facebook Crisis Response app allows users to mark themselves as safe, reassuring friends and family, provide or seek help, donate money, and
 receive information.
 
-* Facebook: Apart from improving rescue and relief operations, people can also use social networking sites to **send donations**.
+* Facebook:people can also use social networking sites to **send donations**.
 
 ## Mobile Apps
 
-* Life360 (provides family location safety, assistance and emerency response)
 * FEMA App (help people prepare before / during / after disasters)
 * Harbor (gamify the emergency preparedness)
 * First Aid: American Red Cross (what to do in case of medical emergency, find nearest hospital)
@@ -54,9 +60,39 @@ receive information.
 * MyShake (earthquake alerts/monitoring and crowd source data collection)
 * Zello. (walkie-talkie like app)
 * EPA Smoke Sense (citizen science project to understand the effects of smoke on health)
+* Commercial apps > Life360 (provides family location safety, assistance and emergency response)
 
 [https://www.wired.com/story/best-emergency-apps/]
 
+## Clowd sourcing / funding
+
+Crowdsourcing is helping to add vital details to maps of disaster areas. This enhances satellite imagery by providing greater
+granularity, making relief efforts more effective and targeted. It is also quicker and cheaper, especially since the crowd often does this on a volunteer basis, compared with traditional methods.
+
+### Use Cases
+
+In India, Twitter was used to alert people to crowdfunding sites for those affected by floods.
+
+More than USD 40 million was contributed via text messaging following the Haiti earthquake disaster in 2010.
+
+## Blockchain
+
+One challenge during a rapidly evolving disaster is coordinating and verifying information among different stakeholders.
+
+For example, the United Nations found that, in the wake of the 2010 Haitian earthquake, assistance efforts were hampered by too many data sources among the some 20 relief groups (Rohr, 2017).
+
+The Blockchain distributed ledger system and chain of verified records could play a significant role in ameliorating information control.
+
+### Use Cases
+
+In the United States of America Centers for Disease Control and Prevention is planning a pilot test of blockchain for a more rapid and reliable collection of data during a crisis, in order to reduce the spread of disease (Orcutt, 2017).
+
+This has relevance for disaster management, since similar to public health, agencies offering relief (e.g. government, assistance agencies, telecom operators, food suppliers, transporters, health workers and the public) need to share trusted data quickly to collaborate effectively (IBM Academy of Technology, 2018).
+
+Another way blockchain technology is already indirectly used for disaster relief is for fundraising activities that accept cryptocurrencies (Harmes, 2018). Several organizations – including Direct Relief, Humanity Road and Save the Children – currently accept cryptocurrencies such as Bitcoin in their
+fundraising activities.
+
+Some relief agencies have begun accepting donations in cryptocurrencies, such as Bitcoin. Mobile money is a safe way for relief organizations to transfer funds to those affected by disasters.
 
 ## Landline Phone
 
@@ -90,7 +126,19 @@ Connectivity Technology – The most powerful tool available during a natural di
 
 ## Mesh-Network?
 
+## Text Messaging
 
+Text messaging is used by many relief organizations, because of the ubiquity of mobile phones
+
+## Satellite
+
+Satellite-based emergency mapping has improved both in quality and response.
+
+## Radar
+
+New radar apertures can see through storm clouds, and satellite activations for disasters have risen.
+
+Radar radio waves continue to play a critical role for disaster monitoring, for example high-frequency ocean radar systems used for monitoring tsunami activity.
 
 ## Case Studies
 

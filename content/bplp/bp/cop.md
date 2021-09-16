@@ -4,7 +4,7 @@ description: "Situational Awareness Technologies Best Practices"
 lead: "Situational Awareness Technologies Best Practices"
 date: 2021-03-01T12:00:00.000Z
 lastmod: 2021-03-01T12:00:00.000Z
-draft: false
+draft: true
 contributors: ["Soichi Hayashi"]
 menu:
   bplp:
@@ -12,6 +12,8 @@ menu:
 weight: 140
 toc: true
 ---
+
+{{< alert icon="👉" text="This page is a DRAFT" />}}
 
 Sensors and Brains(AI)
 
@@ -52,8 +54,7 @@ Tree sensors can detect if a fire has broken out by testing temperature, moistur
 
 Ground sensors can detect earth movements, which might signal earthquakes.
 
-River levels can be monitored by sensors for possible flooding.
-
+Following the flooding of the Liboriana River, which triggered a devastating landslide in May 2015, causing more than 80 deaths, the Government of Colombia’s National Unit for Disaster Risk Management took steps to mitigate future occurrences. It hired a company to implement an early warning system using IoT technology. Five solar powered sensors were installed along the Liboriana and two other rivers to monitor water levels and air temperature using ultrasound. The use of solar ensures the sensors continue to function in the event of an electricity outage. The system automatically sends a text message to village authorities if a risk is detected, and data are also stored in the cloud for others to access.
 
 ## Case Studies
 

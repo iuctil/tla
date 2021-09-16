@@ -234,5 +234,24 @@
             "given": "Deedee", "family": "Bennett"
           }
         ]
-    }
+    },
+    {
+      "id": "Baker 2018",
+      "type": "article-journal",
+      "title": "Telemedicine Technology: a Review of Services, Equipment, and Other Aspects",
+      "DOI": "10.1007/s11882-018-0814-6",
+      "container-title": "Current Allergy and Asthma Reports / Telemedicine and Technology",
+      "issued": {
+        "date-parts": [[ 2018, 9, 26 ]]
+      },
+      "author": [
+        {
+          "given": "John", "family": "Baker"
+        },
+        {
+          "given": "Anthony", "family": "Stanley"
+        }
+      ]
+  }
+
 ]
