@@ -12,10 +12,8 @@ menu:
 weight: 140
 toc: true
 ---
- 
-*This article was originally posted at [https://sciencenode.org/feature/Infrastructure%20in%20a%20disaster.php](https://sciencenode.org/feature/Infrastructure%20in%20a%20disaster.php)*
 
-&nbsp;  
+{{< alert >}}This article was originally posted at [https://sciencenode.org/feature/Infrastructure%20in%20a%20disaster.php](https://sciencenode.org/feature/Infrastructure%20in%20a%20disaster.php){{< /alert >}}
 
 From [2017’s Hurricane Maria](https://www.washingtonpost.com/graphics/2017/national/puerto-rico-life-without-power/) to a recent [swarm of severe earthquakes](https://eos.org/articles/rare-earthquake-swarm-strikes-puerto-rico), Puerto Rico has experienced catastrophe after catastrophe in recent years.
 
@@ -43,23 +41,23 @@ But by introducing redundancies — for example, by connecting key plants to two
 
 Planning creates resilient systems. This is an important feature for utility infrastructures in natural disaster-prone areas, like Puerto Rico, Japan, and China; but it is also becoming [increasingly important](https://law.lclark.edu/live/blogs/132-the-effects-of-natural-disasters-on-energy) globally, as changes in climate increase the [severity and frequency](https://www.phi.org/press/climate-change-is-making-natural-disasters-worse-and-more-likely-how-do-we-protect-the-most-vulnerable/) of hurricanes and floods.
 
-### Reducing Crisis Timelines 
+### Reducing Crisis Timelines
 
 Uncovering system dependencies can also better inform immediate restoration decisions after failures.
 
-In the urgent days to months after disaster strikes, decisions about which infrastructure repairs deserve priority can have immediate and long-term effects on citizens’ economic, physical, and [mental](https://www.theguardian.com/world/2019/apr/26/hurricane-maria-puerto-rico-youth-mental-health-study-report#:~:text=Hurricane%20Maria's%20lasting%20impact%20on%20Puerto%20Rico's%20children%20revealed%20in%20report,-This%20article%20is&text=47.5%25%20of%20children's%20family's%20homes,youth%20were%20forced%20to%20evacuate) well-being. These timely decisions require knowledge of utility dependencies: Which equipment, if restored, will have the greatest overall net effect? And how can the greatest number of services be restored in the fastest way possible? 
+In the urgent days to months after disaster strikes, decisions about which infrastructure repairs deserve priority can have immediate and long-term effects on citizens’ economic, physical, and [mental](https://www.theguardian.com/world/2019/apr/26/hurricane-maria-puerto-rico-youth-mental-health-study-report#:~:text=Hurricane%20Maria's%20lasting%20impact%20on%20Puerto%20Rico's%20children%20revealed%20in%20report,-This%20article%20is&text=47.5%25%20of%20children's%20family's%20homes,youth%20were%20forced%20to%20evacuate) well-being. These timely decisions require knowledge of utility dependencies: Which equipment, if restored, will have the greatest overall net effect? And how can the greatest number of services be restored in the fastest way possible?
 
 Unfortunately, data on these dependencies is not available in public data sets, nor is it routinely collected.
 
-“In terms of an individual system, there are a lot of data sources that talk about electric power systems, right? They’ll show you where substations are located, where power plants are located, and where different power lines are,” says Bergerson. “So understanding a single system isn't much of an issue… It's really how those systems are connected across different types of systems — that's the information that's generally not publicly available.”
+{{< quote >}}“In terms of an individual system, there are a lot of data sources that talk about electric power systems, right? They’ll show you where substations are located, where power plants are located, and where different power lines are,” says Bergerson. “So understanding a single system isn't much of an issue… It's really how those systems are connected across different types of systems — that's the information that's generally not publicly available.”{{< /quote >}}
 
-“We have many projects assessing critical infrastructure that require us to go essentially knock on doors in order to talk to people who do know that information. But, unfortunately, the information is really spread out and requires us to talk to a lot of people in order to get a handful of pieces of information — as opposed to some bigger national data sets that document overall infrastructure systems.” 
+{{< quote >}}“We have many projects assessing critical infrastructure that require us to go essentially knock on doors in order to talk to people who do know that information. But, unfortunately, the information is really spread out and requires us to talk to a lot of people in order to get a handful of pieces of information — as opposed to some bigger national data sets that document overall infrastructure systems.”{{< /quote >}}
 
 It’s slow work. And the arduous data collection process limits the studies in size. But their AI model is increasing that efficiency: “It's allowing us to look at significantly larger overall networks. Instead of being able to look at maybe the size of a city, we can now look at the size of a state,” says Bergerson.
 
 It maps optimal connections, designing intentional systems that keep the most critical infrastructure running. Right now, it’s useful in infrastructure planning and development. And in the future, the team hopes to expand the model’s utility to restoration and recovery efforts:
 
-“So, I personally am very excited about getting to a point where we can potentially inform, in the future, emergency response — so moving from months or years of analysis to days or even potentially hours of analysis.”
+{{< quote >}}“So, I personally am very excited about getting to a point where we can potentially inform, in the future, emergency response — so moving from months or years of analysis to days or even potentially hours of analysis.”{{< /quote >}}
 
 Puerto Rico’s lingering crisis, [still visible three years later](https://www.nbcnews.com/news/latino/puerto-rico-sees-more-pain-little-progress-three-years-after-n1240513), exemplifies the vulnerability and cruciality of utility infrastructures — and the dangers of slow repair rates which draw out temporarily poor living conditions.
 

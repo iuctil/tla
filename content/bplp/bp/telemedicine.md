@@ -13,7 +13,13 @@ weight: 220
 toc: true
 ---
 
+> Who is this for? I'd like to target end-users, everyday people. hospital / clinic picks e-health vendor / technologies and patient doesn't have much say in that.. but we can catalog different hostpitals / clinics and show if (and which?) telemedicine capabilities are offered .. so they can pick which clinic to use? (do they have options?)
+
+>
+
 Telehealth (also called e-health or mobile-health) is a broader terminology used to describe not just patient and doctor interaction but cases such as doctors exchanging medical information between them, or augmenting capabilities of a clinic by connecting patients to doctors else where.
+
+e-health is essentially the use of communication technologies and data transfer for the delivery of remote healthcare.
 
 # Technologies
 
@@ -48,6 +54,9 @@ Capabilities are..
 
 * Enable you to see your doctor or a nurse virtually to receive ongoing care from your regular doctor when an in-person visit isn't required or possible.
 
+>? Remote assistance for teleconsultations, diagnosis, follow-up checks and continuous treatment plans
+
+
 ## Web-based "Visits"
 
 * These services are generally for minor illnesses, similar to the services available at a drop-in clinic. Some large companies provide access to virtual doctors' offices as a part of their health care offerings. When you log into a web-based service, you are guided through a series of questions. The doctor or nurse practitioner can prescribe medications, suggest home care strategies or recommend additional medical care.
@@ -56,12 +65,19 @@ Capabilities are..
 
 ## Remote Monitoring
 
+Telemonitoring services facilitate continued care of patients at home. This reduces hospital stays and also provides them more control over the management of their diseases.
+
 A variety of technologies enable your doctor or health care team to monitor your health remotely. These technologies include:
 
 * Web-based or mobile apps for uploading information, such as blood glucose readings, to your doctor or health care team
-* Devices that measure and wirelessly transmit information, such as blood pressure, blood glucose or lung function
-* Wearable devices that automatically record and transmit information, such as heart rate, blood glucose, gait, posture control, tremors, physical activity or sleep patterns
+
+* Devices that measure and wirelessly transmit information, such as blood pressure, blood glucose or lung function. Some of these devices can also assist in prediction of impending diseases based on the overall health of the user. Wearable devices that automatically record and transmit information, such as heart rate, blood glucose, gait, posture control, tremors, physical activity or sleep patterns
+
+* Hospitals may install IoT sensors on wheelchairs, nebulizers, defibrillators and other medical equipment so that these can be tracked in real time. The location of medical practitioners associated with the hospital can also be monitored this way.
+
 * Home monitoring devices for older people or people with dementia that detect changes in normal activities such as falls
+
+* Cloud application – The data collected by healthcare devices may be sent to an IoT cloud platform from where the information is consolidated by the healthcare provider. This data can subsequently be transmitted to IoT applications used by healthcare facilities for patient monitoring purposes. This information yields valuable insights for the future treatment of patients.
 
 ## Doctors talking to doctors
 
@@ -70,6 +86,9 @@ Doctors can also take advantage of technology to provide better care for their p
 The primary care doctor sends exam notes, history, test results, X-rays or other images to the specialist to review. The specialist may respond electronically, conduct a virtual appointment with you at your doctor's office, or request a face-to-face meeting.
 
 These virtual consultations may prevent unnecessary in-person referrals to a specialist, reduce wait times for specialist input and eliminate unnecessary travel.
+## Hospital administrative services
+
+such as laboratory testing, billing, resolution of issues, etc.
 
 ## Personal Health Records (PHR)
 
@@ -102,11 +121,15 @@ With the recent adoption of patient portals and electronic health records, more 
 * benefit by limited by patient's ability to pay; insurance reimbursement for telehealth still varies by state and type of insurance.
 * care maybe limited because of regional internet availability or cost of mobile devices.
 
+## Robotics
+
+* **Telehealth Robots** Robotics in healthcare can assist in remote patient monitoring and allow specialists to consult on cases in rural hospitals. For example, autonomous telehealth robots can navigate to patients in exam or hospital rooms, allowing clinicians to interact with patients from afar.
+
 ## Companies
 
 **eVisit** telehealth platform connects healthcare providers with their existing patients through secure, high-resolution video — in real-time.  https://evisit.com/
 
-# Considerations for Telemedicine deployment
+## Considerations for Telemedicine deployment
 
 The most important to consider
 
@@ -170,16 +193,24 @@ Many allergy practices use TM to perform facilitated virtual visits [9•]. A fa
 
 The site where the patient is located is referred to as the “originating site.”
 
+## Challenges
+
+Stakeholder engagement – It is found that people are, more often than not, resistant to a change in the conventional mode of providing/obtaining healthcare services. The absence of an emotional bond formation between the healthcare expert and patient and unfamiliarity with the advancements in eHealth technology are some factors that contribute to this resistance.
+
+Organizational limitations – In order to implement a telemedicine model, it is necessary to redesign the existing models in healthcare organizations. There may also be a need to redefine roles and responsibilities. Implementation costs and funding needs are other factors that fall under this category.
+
+Technological factors – It is found that the lack of infrastructure and skills for managing the technology for telemedicine is a key barrier to its implementation. In this context, it is important for healthcare organizations to collaborate with a reliable IoT partner company with experience in the domain.
+
+
 ## Interstate licensing? Does it have emergency declarations?
 
-## Crinitions needed? equipment needed?
-
-
+## clinitians needed? equipment needed?
 
 ## Sources
 
 * {{<cite "Baker 2018">}}
 * https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/telehealth/art-20044878
 * https://evisit.com/resources/telehealth-telemedicine-technology/
+* https://www.embitel.com/blog/embedded-blog/detailed-guide-on-enabling-telemedicine-through-iot
 
 {{< bibliography cited >}}

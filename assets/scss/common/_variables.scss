@@ -22,7 +22,10 @@ $brown:    #aa9c84;
 $blue-300: #8ed6fb;
 $pink-500: #d32e9d;
 
-$primary: $purple;
+//https://www.rapidtables.com/web/color/html-color-codes.html
+$royalblue: #4169E1;
+
+$primary: $royalblue;
 
 $color-btn-bg: $pink-500;
 $color-btn-border: darken($pink-500, 5%);

@@ -1,6 +1,9 @@
 .alert {
+  /*
   font-family: $font-family-monospace;
+  */
   font-size: $font-size-sm;
+  margin-bottom: 20px;
 }
 
 .alert-icon {
@@ -29,7 +32,7 @@
 }
 
 .alert-warning {
-  background: $beige;
+  background: $gray-200;
   color: $black;
 }
 

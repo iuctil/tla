@@ -15,12 +15,10 @@ weight: 130
 toc: true
 #extlink: https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/
 ---
- 
-*This article was originally posted at [https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/](https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/)*
 
-&nbsp;  
+{{< alert >}}This article was originally posted at [https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/](https://www.linkedin.com/pulse/maximize-impact-do-harm-ethical-technology-innovation-rakesh-bharania/){{< /alert >}}
 
-***“History is full of massive harm done by people with great power who are utterly convinced that because they believe themselves to have good intentions, they cannot do harm or cause grave harm.” -- Zeynep Tufecki***
+{{< float right>}}{{< quote >}}“History is full of massive harm done by people with great power who are utterly convinced that because they believe themselves to have good intentions, they cannot do harm or cause grave harm.” -- **Zeynep Tufecki**{{< /quote >}}{{< /float >}}
 
 The 2020 COVID19 pandemic has created an urgent global health emergency. It is natural that when an emergency of this kind occurs, that technologists and innovators across healthcare, humanitarian and public safety organizations and their private sector partners will ask themselves the question, “How can we help?” In some cases, the organizations have a mandate or duty to respond to the crisis. In other cases, it can be simple empathy and the desire to alleviate suffering that move individuals and organizations to action.
 
@@ -46,7 +44,7 @@ We suggest answering the following questions in the remainder of this article in
 
 ### Next: Maximize Impact, Minimize Harm in Your #COVID19 Technology Innovation Efforts
 
-Now that you’ve evaluated your possible projects in terms of priority, scope and capacities, the next step is to determine how to move forward in a way that maximizes the benefit of the effort, and minimizes harms or unintended negative consequences. 
+Now that you’ve evaluated your possible projects in terms of priority, scope and capacities, the next step is to determine how to move forward in a way that maximizes the benefit of the effort, and minimizes harms or unintended negative consequences.
 
 1. ***Is this effort informed by expert opinion and guidance?*** Any technology effort for the COVID19 crisis must be informed by expert opinion in the area that is trying to be addressed, rather than being developed solely by technologists in a vacuum. If the technology effort is meant to enable better sanitation in a refugee camp to minimize COVID19 transmission, is the underlying logic informed by Water, Sanitation and Hygiene (WASH) experts? Is the healthcare management platform informed by hospitals and health officials who can describe what the solution needs to actually do? Use experts and evidence to inform your logic.
 
@@ -56,7 +54,7 @@ Now that you’ve evaluated your possible projects in terms of priority, scope a
 
 4. ***Does the proposed effort take into account the user’s context?*** Consider user interface design: does the solution need to assume the user is under significant stress, tired and overworked, uncomfortable from wearing Personal Protective Equipment (PPE), or other environmental factors? There should be logic safeguards around high-consequence actions to ensure they’re done without error or confusion. If the solution is intended for a low-resource or remote environment, is it designed for low-bandwidth connectivity, older devices, accessible to people with disabilities, or offline use? Does the interface work in the language(s) of the intended user(s)? Does it use terminology that is familiar to the intended user rather than technology jargon? Lastly, is there a feedback mechanism in the design so that end users can report problems, concerns, or dispute outcomes of the solution to support staff who can then investigate those issues?
 
-Because of the urgent nature of the COVID19 pandemic, it may not be possible for technologists to follow traditional development models to identify risks and mitigate them. In order to minimize the delay to effective, impactful technology action for the COVID19 pandemic and yet still control for the urge to “solutionize” and the need to minimize harm, we propose these questions to our community of innovators and Trailblazers. This should help to facilitate a conversation around rapid assessment of any proposed technology effort related to the COVID19 crisis, or for any other urgent humanitarian crisis for that matter.  
+Because of the urgent nature of the COVID19 pandemic, it may not be possible for technologists to follow traditional development models to identify risks and mitigate them. In order to minimize the delay to effective, impactful technology action for the COVID19 pandemic and yet still control for the urge to “solutionize” and the need to minimize harm, we propose these questions to our community of innovators and Trailblazers. This should help to facilitate a conversation around rapid assessment of any proposed technology effort related to the COVID19 crisis, or for any other urgent humanitarian crisis for that matter.
 
 ### About the Authors
 

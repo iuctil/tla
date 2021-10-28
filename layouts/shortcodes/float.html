@@ -1,0 +1,5 @@
+<div class="float {{ index .Params 0 }}">
+  {{ with .Inner}}
+    {{ . | safeHTML }}
+  {{ end }}
+</div>
