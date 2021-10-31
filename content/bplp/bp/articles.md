@@ -1,7 +1,7 @@
 ---
-title: "Best Practices Articles and Conference List"
+title: "Best Practices Articles"
 description: "TBD"
-lead: "coming soon..."
+lead: "Qualitative Analyses of TPS Lessons Learned from NETCCN Covid-19 Deployments"
 date: 2021-08-13T14:00:00.000Z
 lastmod: 2021-08-13T14:00:00.000Z
 draft: false
@@ -20,11 +20,15 @@ toc: true
 
 &nbsp; 
 
+
+{{< alert icon="👉" text="Qualitative Analyses of TPS Lessons Learned from NETCCN Covid-19 Deployments Coming Soon..." />}}
+
+
 <!--
-{{< alert icon="👉" text="Coming Soon" />}}
+# Articles
 -->
 
-# Articles
+&nbsp; 
 
 &nbsp; 
 
@@ -34,11 +38,12 @@ toc: true
 {{< bibliography cited >}}
 -->
 
+<!--
 # Conferences
 
 &nbsp; 
 
-<!--
+
 * ITU Global Forum [https://www.itu.int/
 * InterDrone [https://interdrone.com/]
 -->

@@ -17,9 +17,8 @@ toc: true
 
 This abstract is re-published from the following source: {{<cite "Yoo 2018">}}
 
-*Read the full article at [https://doi.org/doi.org/10.1089/tmj.2017.0069](https://doi.org/doi.org/10.1089/tmj.2017.0069)*
+{{< alert >}}Read the full article here: [https://doi.org/doi.org/10.1089/tmj.2017.0069](https://doi.org/doi.org/10.1089/tmj.2017.0069){{< /alert >}}
 
-&nbsp;  
 ### Background
 Telemedicine in the intensive care unit (tele-ICU) is expected to address geographic health disparities through more efficient resource allocation. Our previous economic evaluation demonstrated tele-ICU to be cost-effective in most cases and cost saving in some cases, compared to conventional intensive care unit (ICU) care without adequate intensivist coverage.
 

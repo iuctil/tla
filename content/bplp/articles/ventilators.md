@@ -17,9 +17,8 @@ toc: true
 
 This abstract is re-published from the following source: {{<cite "Branson 2020">}}
 
-*Read the full article at [https://doi.org/10.1016/j.chest.2020.09.085](https://doi.org/10.1016/j.chest.2020.09.085)*
+{{< alert >}}Read the full article here: [https://doi.org/10.1016/j.chest.2020.09.085](https://doi.org/10.1016/j.chest.2020.09.085){{< /alert >}}
 
-&nbsp;
 ### Background
 Early in the coronavirus disease 2019 (COVID-19) pandemic, there was serious concern that the United States would encounter a shortfall of mechanical ventilators. In response, the US government, using the Defense Production Act, ordered the development of 200,000 ventilators from 11 different manufacturers. These ventilators have different capabilities, and whether all are able to support COVID-19 patients is not evident.
 

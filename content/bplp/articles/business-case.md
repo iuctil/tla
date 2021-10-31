@@ -18,9 +18,8 @@ toc: true
 
 This abstract is re-published from the following source: {{<cite "Coustasse 2014">}}
 
-*Read the full article at [http://doi.org/10.7812/TPP/14-004](http://doi.org/10.7812/TPP/14-004)*
+{{< alert >}}Read the full article here: [http://doi.org/10.7812/TPP/14-004](http://doi.org/10.7812/TPP/14-004){{< /alert >}}
 
-&nbsp;   
 ### Objectives
 A tele-intensive care unit (tele-ICU) uses telemedicine in an intensive care unit (ICU) setting, applying technology to provide care to critically ill patients by off-site clinical resources. The purpose of this review was to examine the implementation, adoption, and utilization of tele-ICU systems by hospitals to determine their efficiency and efficacy as identified by cost savings and patient outcomes.
 

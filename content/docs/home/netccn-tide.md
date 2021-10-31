@@ -25,7 +25,7 @@ toc: true
 - [US Army Medical Research and Development Command (MRDC)](https://mrdc.amedd.army.mil/)
 
 ### Performers
-- [Avera Health](https://www.avera.org/)
+- [Avera Health](https://www.avera.org/) -- *soon to be [Avel eCare](https://www.avelecare.com/)*
 - [Deloitte Consulting](https://www2.deloitte.com/us/en.html)
 - [Expression Networks](https://expr.net/)
 - [Geneva Foundation](https://genevausa.org/)

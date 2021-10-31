@@ -17,9 +17,8 @@ toc: true
 
 This abstract is re-published from the following source: {{<cite "Singh 2021">}}
 
-*Read the full article at [https://doi.org/https://doi.org/10.1089/tmj.2020.0186](https://doi.org/https://doi.org/10.1089/tmj.2020.0186)*
+{{< alert >}}Read the full article here: [https://doi.org/https://doi.org/10.1089/tmj.2020.0186](https://doi.org/https://doi.org/10.1089/tmj.2020.0186){{< /alert >}}
 
-&nbsp; 
 ### Background
 The coronavirus disease 19 (COVID-19) pandemic has strained intensive care unit (ICU) material and human resources to global crisis levels. The risks of staffing challenges and clinician exposure are of significant concern. One resource, telecritical care (TCC), has the potential to optimize efficiency, maximize safety, and improve quality of care provided amid large-scale disruptions, but its role in pandemic situations is only loosely defined.
 

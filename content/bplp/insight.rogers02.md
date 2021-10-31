@@ -1,5 +1,5 @@
 ---
-title: "Point of Care: 02"
+title: "Point of Care: Interstate Licensing"
 description: "Blogpost #2 by Carol Rogers"
 lead: "Cross-state Licensing is Critical for NETCCN Covid-19 Deployments"
 date: 2021-10-11T14:00:00.000Z

@@ -17,9 +17,8 @@ toc: true
 
 This abstract is re-published from the following source: {{<cite "Williams 2020">}}
 
-*Read the full article at [https://doi.org/10.1111/jrh.12524](https://doi.org/10.1111/jrh.12524)*
+{{< alert >}}Read the full article here: [https://doi.org/10.1111/jrh.12524](https://doi.org/10.1111/jrh.12524){{< /alert >}}
 
-&nbsp;  
 ### Purpose
 Amidst the COVID-19 outbreak, the use of intensive care unit telemedicine (tele-ICUs) may be one mechanism to provide patient care, particularly in rural parts of the United States. The purpose of this research was to inform hospital decision makers considering tele-ICUs, policy makers weighing immediate and longer-term funding and reimbursement decisions relative to tele-ICU care, and researchers conducting future work evaluating tele-ICUs.
 

@@ -1,5 +1,5 @@
 ---
-title: "Point of Care: 01"
+title: "Point of Care: Telehealth + Critical Care"
 description: "Blogpost #1 by Carol Rogers"
 lead: "In Two Places at Once"
 date: 2021-08-06T14:00:00.000Z
@@ -40,4 +40,4 @@ The power of interactive visualizations is the ability to answer multiple questi
 
 ![PowerBI Image #5](/images/insight.rogers01.image05.png)
 
-We will be making [this visualization](/bplp/learn.tcc-hospitals/) available within the [Best Practices and Learning Platform](/bplp) to encourage [NETCCN participants and stakeholders](/docs/home/netccn-tide/#list-of-netccnhttpswwwtatrcorgnetccn-tide-stakeholders) to provide feedback on the types of “situational awareness” visualizations they would like us to provide and the sort of information that may be most useful as we move forward. Our next iteration will be to visualize the counties of residence of patients and the location of the hospitals at which they receive tele-critical care.
+We are making the [Tele-Critical Care Hospital Map visualization](/bplp/learn.tcc-hospitals/) available within the [Best Practices and Learning Platform](/bplp) to encourage [NETCCN participants and stakeholders](/docs/home/netccn-tide/#list-of-netccnhttpswwwtatrcorgnetccn-tide-stakeholders) to provide feedback on the types of “situational awareness” visualizations they would like us to provide and the sort of information that may be most useful as we move forward. Our next iteration will be to visualize the counties of residence of patients and the location of the hospitals at which they receive tele-critical care.
