@@ -63,7 +63,8 @@
     "hugo": "0.84.0"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
+    "hugo": "0.0.3",
     "rss-parser": "^3.12.0"
   }
 }

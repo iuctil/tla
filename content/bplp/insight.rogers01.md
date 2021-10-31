@@ -1,13 +1,12 @@
 ---
-title: "Point of Care"
+title: "Point of Care: 01"
 description: "Blogpost #1 by Carol Rogers"
 lead: "In Two Places at Once"
 date: 2021-08-06T14:00:00.000Z
 lastmod: 2021-08-06T14:00:00.000Z
 draft: false
 contributors:
-  - Carol O. Rogers
-  - Andra Ferrara
+  - Carol O. Rogers, Indiana Business Research Center (IBRC) Co-director
 menu:
   bplp:
     parent: "insights"
