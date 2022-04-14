@@ -1,28 +1,41 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[26]:
 
-#---------------Imports---------------#
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-#---------------Imports---------------#
 
-#---------------Reading data files and cleaning---------------#
+
+# In[27]:
+
+
 NETCCN= pd.read_excel("NETCCN_central_active_complete.xlsx")
 NETCCN["StatusLogStatusReceived_Start"]=pd.to_datetime(NETCCN["StatusLogStatusReceived_Start"],format='%Y/%m/%d').dt.date
 NETCCN["actualStartDate"]=pd.to_datetime(NETCCN["actualStartDate"],format='%Y/%m/%d').dt.date
 NETCCN["StatusLogStatusActive_Complete"]=pd.to_datetime(NETCCN["StatusLogStatusActive_Complete"],format='%Y/%m/%d').dt.date
 NETCCN.head()
 
-df=pd.read_csv("SVI2018_US_COUNTY.csv") #link to data https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html
 
-#new dataset with only columns of interest
+# In[28]:
+
+
+df=pd.read_csv("SVI2018_US_COUNTY.csv")
+df.head()
+
+
+# In[29]:
+
+
 demographics= df[["STATE" ,"ST_ABBR", "COUNTY" ,"FIPS" ,"LOCATION" ,"AREA_SQMI","E_TOTPOP","E_POV", "E_UNEMP","E_AGE65","E_AGE17","E_DISABL","E_UNINSUR"]]
 demographics.head()
 
 
-#calculating metrics for U.S
+# In[30]:
+
+
 us_population= sum(demographics["E_TOTPOP"])
 us_poverty= round((sum(demographics["E_POV"])/us_population)*100,1)
 us_unemp= round((sum(demographics["E_UNEMP"])/us_population)*100,1)
@@ -32,12 +45,11 @@ us_disability= round((sum(demographics["E_DISABL"])/us_population)*100,1)
 us_uninsured= round((sum(demographics["E_UNINSUR"])/us_population)*100,1)
 print(us_poverty)
 
-# for each row of netccn active an complete deployment
-#calculating metrics for county
-#calculating metrics for state
-#creating the table and saving it 
+
+# In[31]:
+
+
 for index, row in NETCCN.iterrows():
-    #calculating metrics for county
     county= demographics[demographics["FIPS"]==row["site.fips"]]
     county_population= county.iloc[0]["E_TOTPOP"]
     county_poverty=round((county.iloc[0]["E_POV"]/county_population)*100,1)
@@ -47,7 +59,6 @@ for index, row in NETCCN.iterrows():
     county_disability=round((county.iloc[0]["E_DISABL"]/county_population)*100,1)
     county_uninsured= round((county.iloc[0]["E_UNINSUR"]/county_population)*100,1)
     
-    #calculating metrics for state
     state=demographics[demographics["STATE"]==county.iloc[0]["STATE"]]
     state_population= sum(state["E_TOTPOP"])
     state_poverty= round((sum(state["E_POV"])/state_population)*100,1)
@@ -56,8 +67,7 @@ for index, row in NETCCN.iterrows():
     state_age17= round((sum(state["E_AGE17"])/state_population)*100,1)
     state_disability= round((sum(state["E_DISABL"])/state_population)*100,1)
     state_uninsured= round((sum(state["E_UNINSUR"])/state_population)*100,1)
-
-    #creating the table and saving it                     
+                               
     plt.rcParams["figure.figsize"] = [10, 7.50]
     
     #plt.rcParams["figure.autolayout"] = True
@@ -89,8 +99,12 @@ for index, row in NETCCN.iterrows():
     the_table.scale(1, 4)
     the_table.auto_set_column_width(col=list(range(len(columns)))) 
     plt.title(str(county.iloc[0]["COUNTY"])+" County Demographics", fontsize=20)
-    #saving the table 
     plt.savefig('Demographics/'+str(county.iloc[0]["COUNTY"])+"_"+ str(county.iloc[0]["FIPS"])+'.png', bbox_inches='tight')
-    
+    plt.show()
+
+
+# In[ ]:
+
+
 
 
