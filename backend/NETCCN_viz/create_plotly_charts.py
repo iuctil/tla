@@ -23,6 +23,10 @@ covid_cases= pd.read_csv("/mnt/scratch/datasources/cdc-covid-transmission/rows.c
 print("loading netccn central..")
 NETCCN= pd.read_excel("/mnt/scratch/datasources/netccn/NETCCN_Central_active_complete.xlsx",dtype={'site.fips':'object'})
 
+print("loading cdc SVI..")
+svi=pd.read_csv("/mnt/scratch/datasources/cdc-svi/SVI2018_US_COUNTY.csv",dtype={'FIPS':'object'}) #link to data https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html
+
+
 #---------------Data cleaning and preparing---------------#
 NETCCN["StatusLogStatusReceived_Start"]=pd.to_datetime(NETCCN["StatusLogStatusReceived_Start"],format='%Y/%m/%d').dt.date
 NETCCN["actualStartDate"]=pd.to_datetime(NETCCN["actualStartDate"],format='%Y/%m/%d').dt.date
@@ -35,10 +39,7 @@ covid_cases["cases_per_100K_7_day_count_change"] = covid_cases["cases_per_100K_7
 covid_cases["cases_per_100K_7_day_count_change"] = pd.to_numeric(covid_cases["cases_per_100K_7_day_count_change"])
 covid_cases = covid_cases.sort_values(by="date") #sorting by date
 
-#plotly account credentials
-#username = 'mloukil1' # your username
-#api_key = 'bVYWAwlQx26iAIQFwCeH' # your api key - go to profile > settings > regenerate key
-#chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
+
 
 conditions = [
     (covid_cases['community_transmission_level'] == "high"),
@@ -52,6 +53,19 @@ values = ['tomato', 'orange', 'gold', 'mediumseagreen']
 
 # create a new column and use np.select to assign values to it using our lists as arguments
 covid_cases['colors'] = np.select(conditions, values)
+
+
+#new dataset with only columns of interest from SVI
+demographics= svi[["STATE" ,"ST_ABBR", "COUNTY" ,"FIPS" ,"LOCATION" ,"AREA_SQMI","E_TOTPOP","E_POV", "E_UNEMP","E_AGE65","E_AGE17","E_DISABL","E_UNINSUR"]]
+#calculating metrics for U.S (SVI)
+us_population= sum(demographics["E_TOTPOP"])
+us_poverty= round((sum(demographics["E_POV"])/us_population)*100,1)
+us_unemp= round((sum(demographics["E_UNEMP"])/us_population)*100,1)
+us_age65= round((sum(demographics["E_AGE65"])/us_population)*100,1)
+us_age17= round((sum(demographics["E_AGE17"])/us_population)*100,1)
+us_disability= round((sum(demographics["E_DISABL"])/us_population)*100,1)
+us_uninsured= round((sum(demographics["E_UNINSUR"])/us_population)*100,1)
+
 
 def covid_transmission_charts():
   print("creating covid_transmission_charts-----------------------")
@@ -190,8 +204,46 @@ def covid_cases_charts():
 #saving plotly links in file
 #with open('covid_cases_links.txt', 'a') as the_file:
 #  the_file.write(str(py.plot(fig, filename = str(row["site.fips"])+"_transmission_level", auto_open=False))+'\n')
+def demographics_table():
+    for index, row in NETCCN.iterrows():
+        fipscode = str(row["site.fips"])
+        if fipscode == "0":
+            continue
+    #calculating metrics for county
+        county= demographics[demographics["FIPS"]==fipscode]
+        county_population= county.iloc[0]["E_TOTPOP"]
+        county_poverty=round((county.iloc[0]["E_POV"]/county_population)*100,1)
+        county_unemp= round((county.iloc[0]["E_UNEMP"]/county_population)*100,1)
+        county_age65= round((county.iloc[0]["E_AGE65"]/county_population)*100,1)
+        county_age17= round((county.iloc[0]["E_AGE17"]/county_population)*100,1)
+        county_disability=round((county.iloc[0]["E_DISABL"]/county_population)*100,1)
+        county_uninsured= round((county.iloc[0]["E_UNINSUR"]/county_population)*100,1)
+    
+    #calculating metrics for state
+        state=demographics[demographics["STATE"]==county.iloc[0]["STATE"]]
+        state_population= sum(state["E_TOTPOP"])
+        state_poverty= round((sum(state["E_POV"])/state_population)*100,1)
+        state_unemp= round((sum(state["E_UNEMP"])/state_population)*100,1)
+        state_age65= round((sum(state["E_AGE65"])/state_population)*100,1)
+        state_age17= round((sum(state["E_AGE17"])/state_population)*100,1)
+        state_disability= round((sum(state["E_DISABL"])/state_population)*100,1)
+        state_uninsured= round((sum(state["E_UNINSUR"])/state_population)*100,1)
 
+        cell_text = [["", county.iloc[0]["COUNTY"]+ " County", 'State: '+county.iloc[0]["STATE"].lower().title(), 'U.S.'],
+        ["Population ", "{:,}".format(county_population), "{:,}".format(state_population), "{:,}".format(us_population)],
+        [ "Percentage of Population below poverty",str(county_poverty)+'%', str(state_poverty)+'%', str(us_poverty)+'%'],
+        [ "Percentage of Unemployed Population",str(county_unemp)+'%', str(state_unemp)+'%', str(us_unemp)+'%'],
+        [  "Percentage of Uninsured Population ",str(county_uninsured)+'%', str(state_uninsured)+'%', str(us_uninsured)+'%'],
+        [ "Percentage of Population with Disability",str(county_disability)+'%', str(state_disability)+'%', str(us_disability)+'%',],
+        [ "Percentage of Population Aged 65 and older",str(county_age65)+'%', str(state_age65)+'%', str(us_age65)+'%'],
+        [  "Percentage of Population Aged 17 and younger",str(county_age17)+'%', str(state_age17)+'%', str(us_age17)+'%']]
+
+        # creating json file 
+         # creating json file 
+        json_string= json.dumps(cell_text, indent=4)
+        with open("demographics/county."+fipscode+".json", 'w') as outfile:
+            outfile.write(json_string)
 covid_transmission_charts()
 covid_cases_charts()
-
+demographics_table()
 print("all done")

@@ -6,3 +6,4 @@ resources
 .netlify
 TODO
 backend/config/keys.js
+content/hospitals/
