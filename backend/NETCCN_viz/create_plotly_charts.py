@@ -210,6 +210,7 @@ def demographics_table():
         if fipscode == "0":
             continue
     #calculating metrics for county
+        print("creating demographics file for " + fipscode)
         county= demographics[demographics["FIPS"]==fipscode]
         county_population= county.iloc[0]["E_TOTPOP"]
         county_poverty=round((county.iloc[0]["E_POV"]/county_population)*100,1)
