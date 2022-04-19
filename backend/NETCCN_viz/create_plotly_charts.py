@@ -210,6 +210,7 @@ def covid_cases_charts():
 #with open('covid_cases_links.txt', 'a') as the_file:
 #  the_file.write(str(py.plot(fig, filename = str(row["site.fips"])+"_transmission_level", auto_open=False))+'\n')
 def demographics_table():
+    print("creating demographics files--------------------"
     for index, row in NETCCN.iterrows():
         fipscode = str(row["site.fips"])
         if fipscode == "0":
@@ -255,12 +256,13 @@ def demographics_table():
             outfile.write(json_string)
 
 def waterfall_charts():
+    print("creating waterfall charts---------")
     for index, row in NETCCN.iterrows():
         fipscode = str(row["site.fips"])
         provider_id= str(row['provider.num'])
         if (provider_id=='0'):
             continue
-            
+        print("creating waterfall chart for "+provider_id)
         if ('NaT' in str(row["StatusLogStatusActive_Complete"])):
             waterfall_start= row["StatusLogStatusReceived_Start"]-dt.timedelta(weeks = 2)
             waterfall_end= row["actualStartDate"]+dt.timedelta(days = 9)
@@ -347,7 +349,7 @@ def waterfall_charts():
             showlegend = False
         )
         
-        plotly.io.write_json(fig, "waterfall/county."+fipscode+"hospital."+provider_id+".plotly.json", pretty=True)
+        plotly.io.write_json(fig, "waterfall/county."+fipscode+".hospital."+provider_id+".plotly.json", pretty=True)
 
 covid_transmission_charts()
 covid_cases_charts()
