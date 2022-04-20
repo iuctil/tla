@@ -1,0 +1,12 @@
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+{{ range .Site.Params.options.custom_js -}}
+    <script type="text/javascript" src="{{ . | absURL }}"></script>
+{{- end }}
+
+{{ if .Params.plotly }}
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{{ end }}
