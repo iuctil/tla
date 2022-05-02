@@ -1,12 +1,18 @@
 
 {{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
+  <link rel="stylesheet" href="{{ . | absURL }}">
 {{- end }}
 
 {{ range .Site.Params.options.custom_js -}}
-    <script type="text/javascript" src="{{ . | absURL }}"></script>
+  <script type="text/javascript" src="{{ . | absURL }}"></script>
 {{- end }}
 
 {{ if .Params.plotly }}
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script defer async src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{{ end }}
+
+{{ if .Params.netccnmap }}
+  <!-- we need to make sure initMap function is loaded by the time google map api is loaded
+  <script defer async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlJWrHtfG5OgYKP5h0Gxk2HuopMWpKI0k&callback=initMap"></script>
+  -->
 {{ end }}

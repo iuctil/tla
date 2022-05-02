@@ -1,0 +1,16 @@
+[
+  {
+    "id": "50025",
+    "title": "some hospital name",
+    "lat": 39.8647,
+    "lng": -86.2684,
+    "deployed": true
+  },
+  {
+    "id": "53003",
+    "title": "hostpital 2",
+    "lat": 30.2849,
+    "lng": -97.7341,
+    "deployed": false
+  }
+]
