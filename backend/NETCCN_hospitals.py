@@ -61,6 +61,7 @@ for index, row in hospitals.iterrows():
     "hospitalSubtype": row["hospital_subtype"],
     "lat": row["Latitude"],
     "lng": row["Longitude"],
+    "deployed": False
   }
 
   if len(netccn.index) == 1:
@@ -73,9 +74,9 @@ for index, row in hospitals.iterrows():
     #actualStartDate                   2022-01-20 00:00:00
     #StatusLogStatusActive_Complete                    NaT
     #Name: 48, dtype: object
-    hospital["deployed"] = True
-  else:
-    hospital["deployed"] = False
+    if netccn.iloc[0]["site.fips"] != "0":
+      hospital["deployed"] = True
+
 #for index, row in NETCCN.iterrows():
 #  fipscode = str(row["site.fips"])
 #

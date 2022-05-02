@@ -318,12 +318,11 @@ for index, row in NETCCN.iterrows():
   if fipscode == "0":
     continue
 
+  print("processing", row["site.fips"])
+
   mdPath = "../content/netccn/"+fipscode
   if not os.path.exists(mdPath):
     os.makedirs(mdPath)
-
-  #info = demographics_table(fipscode)
-  #info_json = json.dumps(info, indent=4)
 
   county= demographics[demographics["FIPS"]==fipscode]
   county_population= int(county.iloc[0]["E_TOTPOP"])
