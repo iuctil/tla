@@ -28,9 +28,9 @@
     <h1>{{ .Title }}</h1>
 
     <p class="lead"><b><big>{{ .Params.lead | safeHTML }}</big></b></p>
-   
+
     {{ partial "main/blog-meta.html" . }}
-    
+
     {{if (isset .Params "extlink") }}
       <br>
       Read the full article at <a href="{{ .Params.extlink }}">{{ .Params.extlink }}</a>
