@@ -15,13 +15,14 @@ hospitals = pd.read_csv("/mnt/scratch/datasources/netccn/Hospital_for_Research_L
 #ccn,hospital_name,address,city,state,zip,fips_code,hospital_subtype,is_metro_micro,total_beds_7_day_avg,total_icu_beds_7_day_avg,RUCC_2013,Description,E_TOTPOP,EP_POV,E_PCI,EP_AGE65,EP_AGE17,EP_DISABL,EP_MINRTY,RPL_THEME1,RPL_THEME2,RPL_THEME3,RPL_THEME4,Latitude,Longitude
 
 print("loading netccn central..")
-NETCCN = pd.read_excel("/mnt/scratch/datasources/netccn/NETCCN_Central_active_complete.xlsx")
+NETCCN = pd.read_excel("/mnt/scratch/datasources/netccn/NETCCN_Central_active_complete.xlsx", dtype={
+  "site.fips": object,
+  "provider.num": str})
 
 data = []
 
 for index, row in hospitals.iterrows():
-  print(index)
-  print(row)
+  print(index, row["hospital_name"])
 
   #ccn                                                                    431332
   #hospital_name                           AVERA DE SMET MEMORIAL HOSPITAL - CAH
@@ -76,8 +77,10 @@ for index, row in hospitals.iterrows():
     #actualStartDate                   2022-01-20 00:00:00
     #StatusLogStatusActive_Complete                    NaT
     #Name: 48, dtype: object
+    print(netccn.iloc[0]["site.fips"])
     if netccn.iloc[0]["site.fips"] != "0":
       hospital["deployed"] = True
+      print("... deployed")
 
 #for index, row in NETCCN.iterrows():
 #  fipscode = str(row["site.fips"])

@@ -10,7 +10,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 32.090302,
         "lng": -84.310735,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "110190",
@@ -153,7 +153,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 30.247669,
         "lng": -82.112978,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "100321",
@@ -478,7 +478,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 31.417316,
         "lng": -97.755931,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "670080",
@@ -595,7 +595,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 31.540255,
         "lng": -102.844644,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "451314",
@@ -686,7 +686,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.15237,
         "lng": -119.743479,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501328",
@@ -699,7 +699,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.359648,
         "lng": -119.268574,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501334",
@@ -725,7 +725,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.020659,
         "lng": -119.054066,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501321",
@@ -803,7 +803,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 32.458787,
         "lng": -100.357939,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "451313",
@@ -881,7 +881,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 32.887589,
         "lng": -100.841389,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "451394",
@@ -920,7 +920,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.196498,
         "lng": -122.657954,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501323",
@@ -933,7 +933,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.034402,
         "lng": -122.838953,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "500007",
@@ -1115,7 +1115,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 47.777349,
         "lng": -124.191674,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501322",
@@ -1193,7 +1193,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 48.185851,
         "lng": -117.196814,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501309",
@@ -1271,7 +1271,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 46.490865,
         "lng": -116.151469,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "131315",
@@ -1284,7 +1284,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 45.919925,
         "lng": -116.084203,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "131321",
@@ -1297,7 +1297,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 45.919632,
         "lng": -116.511565,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "130003",
@@ -1375,7 +1375,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 31.307588,
         "lng": -93.784102,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "190218",
@@ -1492,7 +1492,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 45.102185,
         "lng": -95.041816,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "241306",
@@ -1622,7 +1622,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 45.878391,
         "lng": -95.386055,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "241368",
@@ -1830,7 +1830,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 46.362367,
         "lng": -117.282597,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "501301",
@@ -1973,7 +1973,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 35.437391,
         "lng": -100.196706,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "451340",
@@ -2116,7 +2116,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 39.480218,
         "lng": -96.218995,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "171337",
@@ -2220,7 +2220,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 44.869263,
         "lng": -93.778944,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "240104",
@@ -2337,7 +2337,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 45.073127,
         "lng": -92.839768,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "521335",
@@ -2350,7 +2350,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.981117,
         "lng": -92.69486,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "240213",
@@ -2467,7 +2467,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 45.33433,
         "lng": -92.386607,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "521345",
@@ -2480,7 +2480,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 45.120051,
         "lng": -92.519801,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "521318",
@@ -2558,7 +2558,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.777225,
         "lng": -94.198563,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "241311",
@@ -2571,7 +2571,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.599706,
         "lng": -94.111216,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "240187",
@@ -2597,7 +2597,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.441772,
         "lng": -93.913721,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "241334",
@@ -2701,7 +2701,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 42.83868,
         "lng": -72.659997,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "220016",
@@ -2727,7 +2727,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 43.07105,
         "lng": -72.682202,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "300019",
@@ -2766,7 +2766,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 43.310627,
         "lng": -72.461623,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "470003",
@@ -2792,7 +2792,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 44.808422,
         "lng": -73.082507,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "471302",
@@ -2805,7 +2805,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 43.495591,
         "lng": -72.442313,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "301308",
@@ -2909,7 +2909,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.927131,
         "lng": -72.192236,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "471303",
@@ -2922,7 +2922,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 44.404737,
         "lng": -71.983075,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "471305",
@@ -3221,7 +3221,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 39.203373,
         "lng": -91.885371,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "260209",
@@ -3234,7 +3234,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 38.841849,
         "lng": -91.977132,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "260068",
@@ -3312,7 +3312,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 38.63302,
         "lng": -91.489758,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "260052",
@@ -3403,7 +3403,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 38.367806,
         "lng": -93.743646,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "261301",
@@ -3468,7 +3468,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 37.52122,
         "lng": -94.25704,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "261324",
@@ -3494,7 +3494,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 39.327618,
         "lng": -94.226953,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "260177",
@@ -3611,7 +3611,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 39.088508,
         "lng": -93.175937,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "261332",
@@ -3663,7 +3663,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 36.902894,
         "lng": -93.911536,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "261317",
@@ -3832,7 +3832,7 @@
         "hospitalSubtype": "Short Term",
         "lat": 39.148811,
         "lng": -94.575242,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "260048",
@@ -3910,7 +3910,7 @@
         "hospitalSubtype": "Critical Access Hospitals",
         "lat": 45.200406,
         "lng": -96.612559,
-        "deployed": false
+        "deployed": true
     },
     {
         "id": "241321",
