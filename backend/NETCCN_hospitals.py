@@ -10,17 +10,19 @@ import os
 import json
 
 print("loading all hospital info")
-hospitals = pd.read_csv("/mnt/scratch/datasources/netccn/Hospital_for_Research_List.csv")
+hospitals = pd.read_csv("/mnt/scratch/datasources/netccn/Hospital_for_Research_List.csv",
+    converters={'ccn': str, 'zip': str})
 #ccn,hospital_name,address,city,state,zip,fips_code,hospital_subtype,is_metro_micro,total_beds_7_day_avg,total_icu_beds_7_day_avg,RUCC_2013,Description,E_TOTPOP,EP_POV,E_PCI,EP_AGE65,EP_AGE17,EP_DISABL,EP_MINRTY,RPL_THEME1,RPL_THEME2,RPL_THEME3,RPL_THEME4,Latitude,Longitude
 
 print("loading netccn central..")
-NETCCN = pd.read_excel("/mnt/scratch/datasources/netccn/NETCCN_Central_active_complete.xlsx",dtype={'site.fips':'object'})
+NETCCN = pd.read_excel("/mnt/scratch/datasources/netccn/NETCCN_Central_active_complete.xlsx")
 
 data = []
 
 for index, row in hospitals.iterrows():
   print(index)
-  #print(row)
+  print(row)
+
   #ccn                                                                    431332
   #hospital_name                           AVERA DE SMET MEMORIAL HOSPITAL - CAH
   #address                            306 PRAIRIE AVENUE SW  POST OFFICE BOX 160
