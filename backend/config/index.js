@@ -24,10 +24,15 @@ exports.papers = [
   },
 ];
 
-
 exports.rssFeeds = [
   {
-    rss: "http://federaltelemedicine.com/?feed=rss2"
+    rss: "http://federaltelemedicine.com/?feed=rss2",
     name: "Federal Telemedicine",
   }
 ];
+
+exports.mapbox = {
+    accessToken: keys.mapbox,
+}
+
+
