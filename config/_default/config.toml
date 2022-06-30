@@ -11,7 +11,7 @@ rssLimit = 10
 
 googleAnalytics = "G-EL0NYNHGZG"
 
-#theme = [ "hugo-cite" ]
+theme = "doks-child"
 
 # add redirects/headers
 [outputs]
