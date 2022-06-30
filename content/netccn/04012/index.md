@@ -19,7 +19,6 @@ For this county, population demographic data is compared to state and national v
 | Percentage of Population Aged 65 and older | 38% | 17% | 15% |
 | Percentage of Population Aged 17 and younger | 16% | 24% | 23% |
 
-  
 
 For this county, COVID-19 community transmission levels are depicted as part of understanding demand for critical care requirements in the region.
 
