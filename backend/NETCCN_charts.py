@@ -405,7 +405,7 @@ For the following hospitals, average number of COVID-19 patients at a start date
 """
     md += netccn_md[fipscode]
 
-  with open(mdPath+"/index.md", "w") as mdf:
+  with open(mdPath+"/_index.md", "w") as mdf:
       mdf.write(md)
 
 print("all done")
